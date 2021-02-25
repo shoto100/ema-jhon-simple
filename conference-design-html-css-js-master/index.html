@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="" />
+    <meta name="keywords" content=" " />
+    <meta name="developer" content="Musharrof Shishir">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Conference</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/plugins/css/bootstrap.min.css">
+    <!-- Magnific-popup CSS -->
+    <link rel="stylesheet" href="assets/plugins/css/magnific-popup.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="assets/plugins/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Hover CSS -->
+    <link rel="stylesheet" href="assets/plugins/css/hover.css">
+    <!-- Nice Select CSS -->
+    <link rel="stylesheet" href="assets/plugins/css/nice-select.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="assets/plugins/css/aos.css">
+    <!-- Anime CSS -->
+    <link rel="stylesheet" href="assets/plugins/css/animate.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- ************** -->
+    <!-- HEADER SECTION -->
+    <!-- ************** -->
+    <header class="header-nav-wrapper fixed-top" data-aos="fade-down" data-aos-duration="1100">
+        <nav class="navbar navbar-expand-lg navbar-light custom-nav">
+            <div class="container">
+                <div class="logo-wrap logo-nav">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/images/black.svg">
+                        </a>
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto custom-nav-ul">
+                        <li class="nav-item dropdown custom-item home-nav">
+                            <a class="nav-link hvr-underline-from-left custom-nav-link home-nav-caret"
+                                href="#0">HOME</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="home-2.html">HOME VERSION 2</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="home-3.html">HOME VERSION 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item custom-item res-nav-item">
+                            <a class="nav-link hvr-underline-from-left custom-nav-link" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item custom-item">
+                            <a class="nav-link hvr-underline-from-left custom-nav-link" href="about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item custom-item">
+                            <a class="nav-link hvr-underline-from-left custom-nav-link" href="event.html">EVENTS</a>
+                        </li>
+                        <li class="nav-item custom-item">
+                            <a class="nav-link hvr-underline-from-left custom-nav-link" href="blog.html">BLOG</a>
+                        </li>
+                        <li class="nav-item custom-item custom-item-btn">
+                            <a class="nav-link get-ticket custom-item custom-nav-btn">Get Tickets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- MODAL FOR TICKET -->
+    <div id="mymodalOverlay" class="modal-overlay">
+        <div id="mymodal" class="my-modal">
+            <div class="close-btn modalClose">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-11 col-lg-9  mx-auto cstm-col-margin">
+                        <div class="my-modal-wrap">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="form-1">
+                                        <div class="row">
+                                            <div class="col-md-12 col-sm-12">
+                                                <div class="form-header">
+                                                    <h2>your details</h2>
+                                                    <hr>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 col-sm-12">
+                                                <form>
+                                                    <div class="form-row custom-form-row">
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <input type="text" class="form-control cstm-form-ctrl"
+                                                                placeholder="First name">
+                                                        </div>
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <input type="text" class="form-control cstm-form-ctrl"
+                                                                placeholder="Last name">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row custom-form-row">
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <input type="email" class="form-control cstm-form-ctrl"
+                                                                placeholder="Email">
+                                                        </div>
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <div class="custom-input-fld">
+                                                                <span>T-Shirt size</span>
+                                                                <select class="cstm-form-select">
+                                                                    <option value="S">S</option>
+                                                                    <option value="M">M</option>
+                                                                    <option value="L">L</option>
+                                                                    <option value="XL">XL</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row custom-form-row">
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <select class="cstm-form-select-full">
+                                                                <option data-display="Select your Ticket Type">None
+                                                                </option>
+                                                                <option value="front-row">Front Row</option>
+                                                                <option value="middle-row">Middle Row</option>
+                                                                <option value="last-row">Last Row</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <div class="custom-input-fld">
+                                                                <span>Number of seats</span>
+                                                                <select class="cstm-form-select">
+                                                                    <option value="1">1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                    <option value="4">4</option>
+                                                                    <option value="5">5</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="form-2">
+                                        <div class="row">
+                                            <div class="col-md-12 col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-md-5">
+                                                        <div class="form-header">
+                                                            <h2>payment info</h2>
+                                                            <!-- <hr> -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7">
+                                                        <div class="choose-card">
+                                                            <p>Choose your card</p>
+                                                            <div class="card-option">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#0">
+                                                                            <img src="assets/images/visa.svg" alt="">
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#0">
+                                                                            <img src="assets/images/amex-card.svg"
+                                                                                alt="">
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#0">
+                                                                            <img src="assets/images/mastercard.svg"
+                                                                                alt="">
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#0">
+                                                                            <img src="assets/images/discover.svg"
+                                                                                alt="">
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                            </div>
+                                            <div class="col-md-12 col-sm-12">
+                                                <form>
+                                                    <div class="form-row custom-form-row">
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <input type="text" class="form-control cstm-form-ctrl"
+                                                                placeholder="Card Number">
+                                                        </div>
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <input type="text" class="form-control cstm-form-ctrl"
+                                                                placeholder="Name on card">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row custom-form-row">
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <input type="email" class="form-control cstm-form-ctrl"
+                                                                placeholder="MM/YY">
+                                                        </div>
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <input type="text" class="form-control cstm-form-ctrl"
+                                                                placeholder="CVV">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-btn">
+                                                        <a class="custom-form-btn hvr-float" data-toggle="modal"
+                                                            data-target="#successmodal">Buy Ticket</a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //MODAL FOR TICKET\\ -->
+    <!-- MODAL FOR TICKET-SUCCESSFULL -->
+    <div class="modal fade custom-modal" id="successmodal">
+        <div class="modal-dialog modal-lg custom-mdialog modal-dialog-centered">
+            <div class="modal-content custom-mcontent">
+                <div class="modal-header custom-mheader">
+                    <div class="modal-img">
+                        <img src="assets/images/success-conference.svg" alt="">
+                    </div>
+                </div>
+                <div class="modal-body custom-mbody">
+                    <div class="modal-text">
+                        <h2>Your ticket purchase is successfull</h2>
+                        <p>don’t forget to check-in</p>
+                    </div>
+                </div>
+                <div class="modal-footer custom-mfooter">
+                    <div class="modal-btn">
+                        <a href="index.html" class="btn custom-btn mdl-btn">Back To Homepage</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //MODAL FOR TICKET-SUCCESSFULL\\ -->
+    <section class="header-wrapper" data-aos="fade-in" data-aos-duration="1000">
+        <div class="header-wrap">
+            <div class="header-shape">
+                <img src="assets/images/headershape_animated.svg" alt="">
+            </div>
+            <div class="header-blob" data-aos="fade-right" data-aos-duration="1400">
+                <img src="assets/images/blob.png" alt="">
+            </div>
+            <div class="header-img" data-aos="fade-left" data-aos-duration="1200">
+                <img src="assets/images/header-img.png" class="par" alt="conference">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="header-content">
+                            <div class="main-header">
+                                <h3 class="title-1" data-aos="fade-up" data-aos-duration="1100">Conference</h3>
+                                <h2 class="title-2" data-aos="fade-up" data-aos-duration="1200">2019</h2>
+                                <p class="main-p-text" data-aos="fade-up" data-aos-offset="-100"
+                                    data-aos-duration="1300">The problem is to signature on document is not a easy task.
+                                    Lot’s
+                                    of time people get frustrated by this thing.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="header-img-res">
+                            <img src="assets/images/header-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ******************* -->
+    <!-- HEADER SECTION ENDS -->
+    <!-- ******************* -->
+    <!-- *********** -->
+    <!-- HOT SECTION -->
+    <!-- *********** -->
+    <section class="hot-wrapper">
+        <div class="hot-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="hot-img-content">
+                            <div class="hot-img">
+                                <img src="assets/images/hotest-img.png" class="par2" alt="hotest-conference">
+                            </div>
+                            <div class="hot-box-yl">
+                                <div class="hot-box-text1">
+                                    <h3 class="name"><span class="date">28</span> december</h3>
+                                </div>
+                                <div class="hot-box-text2">
+                                    <p class="venue-title">VENUE : Mirage, Las Vegas, USA </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="hot-content">
+                            <div class="section-header">
+                                <div class="section-indicator wow slideInLeft" data-wow-duration="1.2s">
+                                    <!-- SECTION INDICATOR -->
+                                </div>
+                                <h3 class="title-1" data-aos="fade-up" data-aos-duration="1100">
+                                    hotest
+                                </h3>
+                                <h2 class="title-2" data-aos="fade-up" data-aos-duration="1200">
+                                    conference of the month
+                                </h2>
+                                <h4 class="title-3" data-aos="fade-up" data-aos-duration="1300" data-aos-offset="-10">
+                                    why the hell makers conference make sense
+                                </h4>
+                            </div>
+                            <div class="hot-text-content" data-aos="fade-up" data-aos-duration="1200">
+                                <div class="first-p">
+                                    <p class="def-p-text">
+                                        Yeah, but your scientists were so preoccupied with whether or not they
+                                        could, they didn't stop to think if they should. I gave it a cold? I gave it
+                                        a virus. Quick computer virus.
+                                    </p>
+                                </div>
+                                <div class="second-p">
+                                    <p class="def-p-text">
+                                        God help us, we're in the hands of engineers. Hey, take a look at the
+                                        earthlings. Goodbye.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="button" data-aos="fade-in" data-aos-duration="800">
+                                <a class="custom-btn btn" href="about.html">
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- **************** -->
+    <!-- HOT SECTION ENDS -->
+    <!-- **************** -->
+    <!-- *************** -->
+    <!-- MENTORS SECTION -->
+    <!-- *************** -->
+    <section class="mentor-wrapper">
+        <div class="mentor-wrap">
+            <div class="mentor-bottom-box">
+                <!-- BACKGROUND -->
+                <img src="assets/images/mentorshape_animated.svg" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header">
+                            <h2 class="title-2" data-aos="fade-up" data-aos-duration="1100">
+                                mentors
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="mentor-content-wrap">
+                    <div class="row">
+                        <div class="col-md-9 mx-auto" data-aos="fade-up" data-aos-duration="1100">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="mentor-content mentor-content-none">
+                                        <div class="mentor-img">
+                                            <img src="assets/images/mentor1.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="mentor-text-content">
+                                            <h3 class="name">carlos horton</h3>
+                                            <p class="name-p-text">Independent Designer</p>
+                                        </div>
+                                    </div>
+                                    <div class="mentor-content-res">
+                                        <div class="mentor-img">
+                                            <img src="assets/images/mentor6.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="mentor-text-content">
+                                            <h3 class="name">carlos horton</h3>
+                                            <p class="name-p-text">Independent Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="mentor-content">
+                                        <div class="mentor-img">
+                                            <img src="assets/images/mentor2.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="mentor-text-content">
+                                            <h3 class="name">eugene tate</h3>
+                                            <p class="name-p-text">Independent Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="mentor-content">
+                                        <div class="mentor-img">
+                                            <img src="assets/images/mentor3.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="mentor-text-content">
+                                            <h3 class="name">ethan bowman</h3>
+                                            <p class="name-p-text">Independent Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="mentor-content">
+                                        <div class="mentor-img">
+                                            <img src="assets/images/mentor4.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="mentor-text-content">
+                                            <h3 class="name">alejandro wagner</h3>
+                                            <p class="name-p-text">Independent Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="mentor-content">
+                                        <div class="mentor-img">
+                                            <img src="assets/images/mentor5.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="mentor-text-content">
+                                            <h3 class="name">jarome collins</h3>
+                                            <p class="name-p-text">Independent Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="mentor-content">
+                                        <div class="mentor-img">
+                                            <img src="assets/images/mentor6.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="mentor-text-content">
+                                            <h3 class="name">curtis banks</h3>
+                                            <p class="name-p-text">Independent Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ******************** -->
+    <!-- MENTORS SECTION ENDS -->
+    <!-- ******************** -->
+    <!-- ************ -->
+    <!-- BEST SECTION -->
+    <!-- ************ -->
+    <section class="best-wrapper">
+        <div class="best-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-indicator wow slideInLeft" data-wow-duration="1.2s">
+                            <!-- INDICATOR -->
+                        </div>
+                        <div class="section-header">
+                            <h3 class="title-1" data-aos="fade-up" data-aos-duration="1100">best topic</h3>
+                            <h2 class="title-2" data-aos="fade-up" data-aos-duration="1200">
+                                but your scientists were so preoccupied with whether or not the could, they didn't stop
+                                to think if they should.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="best-content-wrap">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="best-text-content" data-aos="fade-up" data-aos-duration="1200">
+                                <p class="def-p-text">
+                                    Yeah, but your scientists were so preoccupied with whether or not they could, they
+                                    didn't stop to think if they should. I gave it a cold? I gave it a virus. Quick
+                                    computer virus. God help us, we're in the hands of engineers. Hey, take a look at
+                                    the earthlings. Goodbye. Like when they get documents or nda from clients after that
+                                    they need to print out. We started by doing competitive analysis. First of all we
+                                    select some competitors such as Forms by legal shield, DocuSign, SignNow app. This
+                                    time we don’t have much features and function for this app, so that we took some Key
+                                    features from thoose app.
+                                </p>
+                            </div>
+                            <div class="best-logo-content" data-aos="fade-up" data-aos-duration="1100">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3 class="ref-text">Standards & Technology Trusted By:</h3>
+                                        <div class="best-logo-wrap">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="row">
+                                                        <div class="col-md-4 col-sm-4">
+                                                            <div class="logo-img">
+                                                                <img src="assets/images/youtube@2x.png"
+                                                                    class="img-fluid" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4">
+                                                            <div class="logo-img">
+                                                                <img src="assets/images/Hulu@2x.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4">
+                                                            <div class="logo-img">
+                                                                <img src="assets/images/Uber@2x.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4">
+                                                            <div class="logo-img">
+                                                                <img src="assets/images/Netflix@2x.png"
+                                                                    class="img-fluid" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4">
+                                                            <div class="logo-img">
+                                                                <img src="assets/images/Spotify@2x.png"
+                                                                    class="img-fluid" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4">
+                                                            <div class="logo-img">
+                                                                <img src="assets/images/Dropbox@2x.png"
+                                                                    class="img-fluid" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="best-logo-res">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12">
+                                                    <div class="logo-image-wrap">
+                                                        <div class="logo-image">
+                                                            <img src="assets/images/youtube@2x.png" class="img-fluid"
+                                                                alt="">
+                                                        </div>
+                                                        <div class="logo-image">
+                                                            <img src="assets/images/Hulu@2x.png" class="img-fluid"
+                                                                alt="">
+                                                        </div>
+                                                        <div class="logo-image">
+                                                            <img src="assets/images/Uber@2x.png" class="img-fluid"
+                                                                alt="">
+                                                        </div>
+                                                        <div class="logo-image">
+                                                            <img src="assets/images/Netflix@2x.png" class="img-fluid"
+                                                                alt="">
+                                                        </div>
+                                                        <div class="logo-image">
+                                                            <img src="assets/images/Spotify@2x.png" class="img-fluid"
+                                                                alt="">
+                                                        </div>
+                                                        <div class="logo-image">
+                                                            <img src="assets/images/Dropbox@2x.png" class="img-fluid"
+                                                                alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="best-img-content" style="background-image: url(assets/images/dot.png);"
+                                data-aos="fade-in" data-aos-duration="1100">
+                                <div class="best-img">
+                                    <img src="assets/images/best-img.png" alt="">
+                                </div>
+                                <div class="best-img">
+                                    <div class="best-box-yl">
+                                        <div class="best-box-content">
+                                            <h3 class="venue-title">VENUE : South Britania Hall</h3>
+                                            <p class="venue-p-text">Yeah, but your scientists were so preoccupied with.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***************** -->
+    <!-- BEST SECTION ENDS -->
+    <!-- ***************** -->
+    <!-- ************ -->
+    <!-- TIME SECTION -->
+    <!-- ************ -->
+    <section class="time-wrapper">
+        <div class="time-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        <div class="section-header">
+                            <div class="section-indicator wow slideInLeft" data-wow-duration="1.2s">
+                                <!-- INDICATOR -->
+                            </div>
+                            <h3 class="title-1 wow slideInUp" data-wow-duration="1.2s">
+                                time
+                            </h3>
+                            <h2 class="title-2 wow slideInUp" data-wow-duration="1.2s">
+                                schedule
+                            </h2>
+                        </div>
+                        <div class="time-content-wrap">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="time-content wow fadeIn" data-wow-duration="1.3s">
+                                        <div class="time-content-num">
+                                            <h3>01</h3>
+                                        </div>
+                                        <div class="time-text-content">
+                                            <p class="name-p-text">Introduct to Design - The Steps / 7:00am</p>
+                                            <h3 class="name">Aaron Griffin</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="time-content wow fadeIn" data-wow-duration="1.3s">
+                                        <div class="time-content-num">
+                                            <h3>02</h3>
+                                        </div>
+                                        <div class="time-text-content">
+                                            <p class="name-p-text">Using Banner Stands Increase / 12:00pm</p>
+                                            <h3 class="name">Paul Matthews</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="time-content wow fadeIn" data-wow-duration="1.4s">
+                                        <div class="time-content-num">
+                                            <h3>03</h3>
+                                        </div>
+                                        <div class="time-text-content">
+                                            <p class="name-p-text">Free Classifieds Using Them / 04:00pm</p>
+                                            <h3 class="name">Edward Stokes</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="time-content wow fadeIn" data-wow-duration="1.4s">
+                                        <div class="time-content-num">
+                                            <h3>04</h3>
+                                        </div>
+                                        <div class="time-text-content">
+                                            <p class="name-p-text">Finally A Top Secret Way / 7:00pm</p>
+                                            <h3 class="name">Christopher Byrd</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mx-auto">
+                        <div class="time-date-content">
+                            <div class="time-date-box wow fadeIn" data-wow-duration="1.2s">
+                                <div class="time-date-wrap">
+                                    <div class="time-date-header">
+                                        <h2>28</h2>
+                                        <h3 class="name">dec</h3>
+                                    </div>
+                                    <p class="venue-p-text">
+                                        Yeah, but your scientists were so preoccupied with whether or not they could,
+                                        they are didn't stop to think if they should.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***************** -->
+    <!-- TIME SECTION ENDS -->
+    <!-- ***************** -->
+    <!-- *************** -->
+    <!-- RESERVE SECTION -->
+    <!-- *************** -->
+    <section class="reserve-wrapper" style="background-image:url(assets/images/gray-dot.svg);">
+        <div class="reserve-box">
+            <div class="reserve-inner-box">
+                <div class="reserve-box-1">
+                    <img src="assets/images/reserve-1.png" class="par3" alt="">
+                </div>
+                <div class="reserve-box-2">
+                    <img src="assets/images/reserve-2.png" class="par4" alt="">
+                    <div class="reserve-inner-box">
+                        <!-- YELLOW BOX -->
+                    </div>
+                </div>
+                <div class="reserve-box-3">
+                    <img src="assets/images/reserve-3.png" class="par5" alt="">
+                    <div class="reserve-inner-box">
+                        <!-- YELLOW BOX -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reserve-wrap" style="background-image: url(assets/images/reserve-shape.png);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 ml-auto">
+                        <div class="reserve-content-wrap">
+                            <div class="section-header">
+                                <h2 class="title-2 wow fadeInUp" data-wow-duration="1.1s">reserve your seat</h2>
+                                <p class="def-p-text wow fadeInUp" data-wow-duration="1.1s">Yeah, but your scientists
+                                    were so preoccupied with whether or not
+                                    they could, they didn't stop to think if they should.</p>
+                            </div>
+                            <div class="reserve-btn wow fadeInUp" data-wow-duration="1.2s">
+                                <a class="custom-btn btn custom-reserve-btn" href="#">
+                                    Get Your Ticket
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ******************** -->
+    <!-- RESERVE SECTION ENDS -->
+    <!-- ******************** -->
+    <!-- ************** -->
+    <!-- FOOTER SECTION -->
+    <!-- ************** -->
+    <footer class="footer-wrapper">
+        <div class="footer-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-12">
+                        <div class="logo-wrap ">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img class="img-fluid" src="assets/images/white.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-item-wrap">
+                            <div class="footer-item">
+                                <ul class="footer-ul">
+                                    <li><a href="#">Customer Support</a></li>
+                                    <li><a href="#">Sales</a></li>
+                                    <li><a href="#">Operations</a></li>
+                                    <li><a href="#">Emails</a></li>
+                                    <li><a href="#">SMS</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-item-wrap">
+                            <div class="footer-item">
+                                <ul class="footer-ul">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Career</a></li>
+                                    <li><a href="#">Education</a></li>
+                                    <li><a href="#">Tickets</a></li>
+                                    <li><a href="#">Social</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mx-auto">
+                        <div class="footer-item-wrap">
+                            <div class="footer-item">
+                                <div class="footer-join">
+                                    <h3 class="name">
+                                        Join Our Mailing List
+                                    </h3>
+                                    <div class="footer-join-bar">
+                                        <div class="form-group custom-join">
+                                            <input type="text" class="form-control join-control"
+                                                id="formGroupExampleInput" placeholder="email address">
+                                            <button class="join-btn">
+                                                join
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="follow-us">
+                                    <h3>follow us on</h3>
+                                    <a href="#0" class="ln-icon">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="copy-right">
+                            <h3>&copy; Omnnego International, 2020</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ******************* -->
+    <!-- FOOTER SECTION ENDS -->
+    <!-- ******************* -->
+    <!-- -->
+    <!-- ******** -->
+    <!-- JS FILES -->
+    <!-- ******** -->
+    <!-- jQuery -->
+    <script src="assets/plugins/js/jquery-3.4.0.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/plugins/js/bootstrap.bundle.min.js"></script>
+    <!-- Fontawesome -->
+    <script src="assets/plugins/js/fontawesome.min.js"></script>
+    <!-- Nice Select JS -->
+    <script src="assets/plugins/js/jquery.js"></script>
+    <script src="assets/plugins/js/jquery.nice-select.js"></script>
+    <!-- Counter Up JS -->
+    <script src="assets/plugins/js/jquery.waypoints.min.js"></script>
+    <script src="assets/plugins/js/jquery.counterup.min.js"></script>
+    <!-- AOS -->
+    <script src="assets/plugins/js/aos.js"></script>
+    <!-- Owl JS -->
+    <script src="assets/plugins/js/owl.carousel.min.js"></script>
+    <!-- Parallax -->
+    <script src="assets/plugins/js/parallax.js"></script>
+    <script src="assets/plugins/js/simpleParallax.js"></script>
+    <!-- Magnific-Pop JS -->
+    <script src="assets/plugins/js/jquery.magnific-popup.js"></script>
+    <!-- Wow -->
+    <script src="assets/plugins/js/wow.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

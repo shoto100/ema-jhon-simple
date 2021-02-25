@@ -1,0 +1,55 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  font-family: 'Poppins', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+body .exchange-rate-img .money-img {
+  max-width: 520px;
+  height: auto;
+}
+
+body .exchange-rate-body h1 {
+  color: #2dacff;
+  margin: 0 0 10px;
+}
+
+body .exchange-rate-body h1 span {
+  color: #f4f4f4;
+}
+
+body .exchange-rate-body p {
+  text-align: center;
+  color: #c1c1c1;
+  font-weight: 600;
+}
+
+body .swap-rate-container .custom-btn {
+  font-size: 12px;
+  color: #000;
+  background-color: #ccc;
+  border-radius: 5px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 5px 12px;
+}
+/*# sourceMappingURL=style.css.map */

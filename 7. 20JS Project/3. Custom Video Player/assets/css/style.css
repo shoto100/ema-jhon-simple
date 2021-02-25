@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #666;
+  font-family: 'Questrial', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+body #custom-video-player .custom-video-player-wrap h1 {
+  font-family: 'Questrial', sans-serif;
+  color: #fdfdf6;
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+body #custom-video-player .custom-video-player-wrap .video-player {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #custom-video-player .custom-video-player-wrap .video-player .screen {
+  cursor: pointer;
+  max-width: 60%;
+  background-color: #000;
+  margin: 0 auto;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+body #custom-video-player .custom-video-player-wrap .controls {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 0 10px;
+  background: #333;
+  color: #fff;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #custom-video-player .custom-video-player-wrap .controls button {
+  color: #ccc;
+}
+
+body #custom-video-player .custom-video-player-wrap .controls .btn:focus {
+  outline: #333 !important;
+}
+
+body #custom-video-player .custom-video-player-wrap .controls .play-icon {
+  color: #28a745;
+}
+
+body #custom-video-player .custom-video-player-wrap .controls .stop-icon {
+  color: #dc3545;
+}
+
+body #custom-video-player .custom-video-player-wrap .controls .pause-icon {
+  color: #bbbb26;
+}
+
+body #custom-video-player .custom-video-player-wrap .controls span {
+  padding: 0 0 0 7px;
+}
+/*# sourceMappingURL=style.css.map */

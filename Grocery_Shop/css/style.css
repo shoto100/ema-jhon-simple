@@ -1,0 +1,107 @@
+body {
+  background: #ccc;
+}
+
+body .navbar {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  background: #4d2502;
+  min-height: 70px;
+}
+
+body .navbar .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #aaa;
+}
+
+body i {
+  color: #aaa;
+}
+
+body #overflow {
+  background: url("../imgs/background.jpg") center/cover no-repeat;
+  min-height: 600px;
+  opacity: 1;
+}
+
+body #overflow h1 {
+  font-weight: bold;
+  color: #4d2502;
+  border-bottom: #4d2502 solid 1px;
+  border-top: #4d2502 solid 1px;
+}
+
+body #overflow button {
+  background: #4d2502;
+  border: none;
+  border-radius: 2rem;
+}
+
+body #overflow button:hover {
+  background: #6b3403;
+  font-weight: 500;
+}
+
+#onlineproduct .border {
+  background: #4d2502;
+}
+
+#onlineproduct .border:hover {
+  background: #6b3403;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#discount img {
+  width: "800";
+  height: "800";
+}
+
+#discount {
+  min-height: 150px;
+}
+
+#discount .card {
+  background: #ccc;
+}
+
+#discount a {
+  background: #4d2502;
+  border: none;
+  border-radius: 2rem;
+}
+
+#discount a:hover {
+  background: #6b3403;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#about i {
+  color: #4d2502;
+}
+
+#about .card {
+  background: #ccc;
+}
+
+#about p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+footer i {
+  color: #4d2502;
+}
+
+footer .card {
+  background: #ccc;
+  border: none;
+}
+
+footer .card-title {
+  border-bottom: #c2c0c0 solid 1px;
+  padding-bottom: 15px;
+}
+/*# sourceMappingURL=style.css.map */

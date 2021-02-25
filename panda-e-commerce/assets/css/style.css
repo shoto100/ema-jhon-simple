@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1166px;
+  height: auto;
+}
+
+.custom-btn {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FF589B), to(#FF136F));
+  background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+  border: none;
+  padding: 9px 25px;
+  border-radius: 8px;
+}
+
+.custom-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#header-wrapper {
+  margin: 0 0 50px 0;
+}
+
+#header-wrapper .custom-nav {
+  margin: 0 0 100px 0;
+}
+
+#header-wrapper .custom-carousel {
+  background: #F8E9E8;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#header-wrapper .custom-carousel .carousel-content {
+  padding: 0 0 0 25px;
+}
+
+#header-wrapper .custom-carousel .carousel-content .price {
+  color: #FF136F;
+  font-weight: 500;
+  font-size: 42px;
+}
+
+#product-wrapper {
+  padding: 50px 0;
+}
+
+#product-wrapper .product-content {
+  border-radius: 10px;
+  padding: 10px 30px;
+  color: #fff;
+}
+
+#product-wrapper .product-content h1 {
+  font-size: 42px;
+}
+
+#product-wrapper .product-content-1 {
+  background-color: #ffc107;
+}
+
+#product-wrapper .product-content-2 {
+  background-color: orchid;
+}
+
+#product-wrapper .product-content-3 {
+  background-color: blue;
+}
+
+#shoes-wrapper {
+  padding: 50px 0;
+}
+/*# sourceMappingURL=style.css.map */

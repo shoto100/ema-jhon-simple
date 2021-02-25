@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="" />
+    <meta name="keywords" content=" " />
+    <meta name="developer" content="Musharrof Shishir">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Events</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/plugins/css/bootstrap.min.css">
+    <!-- Magnific-popup CSS -->
+    <link rel="stylesheet" href="assets/plugins/css/magnific-popup.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="assets/plugins/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Hover CSS -->
+    <link rel="stylesheet" href="assets/plugins/css/hover.css">
+    <!-- Nice Select CSS -->
+    <link rel="stylesheet" href="assets/plugins/css/nice-select.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="assets/plugins/css/aos.css">
+    <!-- Anime CSS -->
+    <link rel="stylesheet" href="assets/plugins/css/animate.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- ************** -->
+    <!-- HEADER SECTION -->
+    <!-- ************** -->
+    <header class="header-nav-wrapper fixed-top" data-aos="fade-down" data-aos-duration="1100">
+        <nav class="navbar navbar-expand-lg navbar-light custom-nav">
+            <div class="container">
+                <div class="logo-wrap logo-nav">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/images/black.svg">
+                        </a>
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto custom-nav-ul">
+                        <li class="nav-item dropdown custom-item home-nav">
+                            <a class="nav-link hvr-underline-from-left custom-nav-link home-nav-caret"
+                                href="#0">HOME</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="home-2.html">HOME VERSION 2</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="home-3.html">HOME VERSION 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item custom-item res-nav-item">
+                            <a class="nav-link hvr-underline-from-left custom-nav-link" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item custom-item">
+                            <a class="nav-link hvr-underline-from-left custom-nav-link" href="about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item custom-item">
+                            <a class="nav-link hvr-underline-from-left custom-nav-link" href="event.html">EVENTS</a>
+                        </li>
+                        <li class="nav-item custom-item">
+                            <a class="nav-link hvr-underline-from-left custom-nav-link" href="blog.html">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link get-ticket custom-item custom-nav-btn">Get Tickets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- MODAL FOR TICKET -->
+    <div id="mymodalOverlay" class="modal-overlay">
+        <div id="mymodal" class="my-modal">
+            <div class="close-btn modalClose">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-11 col-lg-9  mx-auto cstm-col-margin">
+                        <div class="my-modal-wrap">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="form-1">
+                                        <div class="row">
+                                            <div class="col-md-12 col-sm-12">
+                                                <div class="form-header">
+                                                    <h2>your details</h2>
+                                                    <hr>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 col-sm-12">
+                                                <form>
+                                                    <div class="form-row custom-form-row">
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <input type="text" class="form-control cstm-form-ctrl"
+                                                                placeholder="First name">
+                                                        </div>
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <input type="text" class="form-control cstm-form-ctrl"
+                                                                placeholder="Last name">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row custom-form-row">
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <input type="email" class="form-control cstm-form-ctrl"
+                                                                placeholder="Email">
+                                                        </div>
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <div class="custom-input-fld">
+                                                                <span>T-Shirt size</span>
+                                                                <select class="cstm-form-select">
+                                                                    <option value="S">S</option>
+                                                                    <option value="M">M</option>
+                                                                    <option value="L">L</option>
+                                                                    <option value="XL">XL</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row custom-form-row">
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <select class="cstm-form-select-full">
+                                                                <option data-display="Select your Ticket Type">None
+                                                                </option>
+                                                                <option value="front-row">Front Row</option>
+                                                                <option value="middle-row">Middle Row</option>
+                                                                <option value="last-row">Last Row</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <div class="custom-input-fld">
+                                                                <span>Number of seats</span>
+                                                                <select class="cstm-form-select">
+                                                                    <option value="1">1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                    <option value="4">4</option>
+                                                                    <option value="5">5</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="form-2">
+                                        <div class="row">
+                                            <div class="col-md-12 col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-md-5">
+                                                        <div class="form-header">
+                                                            <h2>payment info</h2>
+                                                            <!-- <hr> -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7">
+                                                        <div class="choose-card">
+                                                            <p>Choose your card</p>
+                                                            <div class="card-option">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#0">
+                                                                            <img src="assets/images/visa.svg" alt="">
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#0">
+                                                                            <img src="assets/images/amex-card.svg"
+                                                                                alt="">
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#0">
+                                                                            <img src="assets/images/mastercard.svg"
+                                                                                alt="">
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#0">
+                                                                            <img src="assets/images/discover.svg"
+                                                                                alt="">
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                            </div>
+                                            <div class="col-md-12 col-sm-12">
+                                                <form>
+                                                    <div class="form-row custom-form-row">
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <input type="text" class="form-control cstm-form-ctrl"
+                                                                placeholder="Card Number">
+                                                        </div>
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <input type="text" class="form-control cstm-form-ctrl"
+                                                                placeholder="Name on card">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row custom-form-row">
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <input type="email" class="form-control cstm-form-ctrl"
+                                                                placeholder="MM/YY">
+                                                        </div>
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <input type="text" class="form-control cstm-form-ctrl"
+                                                                placeholder="CVV">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-btn">
+                                                        <a class="custom-form-btn hvr-float" data-toggle="modal"
+                                                            data-target="#successmodal">Buy Ticket</a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //MODAL FOR TICKET\\ -->
+    <!-- MODAL FOR TICKET-SUCCESSFULL -->
+    <div class="modal fade custom-modal" id="successmodal">
+        <div class="modal-dialog modal-lg custom-mdialog modal-dialog-centered">
+            <div class="modal-content custom-mcontent">
+                <div class="modal-header custom-mheader">
+                    <div class="modal-img">
+                        <img src="assets/images/success-conference.svg" alt="">
+                    </div>
+                </div>
+                <div class="modal-body custom-mbody">
+                    <div class="modal-text">
+                        <h2>Your ticket purchase is successfull</h2>
+                        <p>don’t forget to check-in</p>
+                    </div>
+                </div>
+                <div class="modal-footer custom-mfooter">
+                    <div class="modal-btn">
+                        <a href="index.html" class="btn custom-btn mdl-btn">Back To Homepage</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //MODAL FOR TICKET-SUCCESSFULL\\ -->
+    <section class="event-header-wrapper" data-aos="fade-in" data-aos-duration="1000">
+        <div class="ev-header-shape">
+            <img src="assets/images/headershape.svg" alt="">
+        </div>
+        <div class="event-header-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="ev-header-content">
+                            <div class="main-header">
+                                <h3 class="title-1">previous</h3>
+                                <h2 class="title-2">event's</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ******************* -->
+    <!-- HEADER SECTION ENDS -->
+    <!-- ******************* -->
+    <!-- ************** -->
+    <!-- EVENTS SECTION -->
+    <!-- ************** -->
+    <section class="event-wrapper">
+        <div class="event-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="ev-content-wrap" data-aos="fade-up" data-aos-duration="1100">
+                            <div class="ev-content">
+                                <div class="ev-img-txt">
+                                    <a href="event-single.html">
+                                        <div class="ev-overlay">
+                                            <!-- Overlay -->
+                                        </div>
+                                        <img src="assets/images/event-img1.png" alt="">
+                                        <div class="ev-text">
+                                            <h3>18 March - 19 March. 2019</h3>
+                                            <a href="event-single.html">5 things you should never say in amstradam</a>
+                                            <p>The Business Center, Dhaka</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="ev-content-wrap res-pd" data-aos="fade-up" data-aos-duration="1100">
+                            <div class="ev-content">
+                                <div class="ev-img-txt">
+                                    <a href="event-single.html">
+                                        <div class="ev-overlay">
+                                            <!-- Overlay -->
+                                        </div>
+                                        <img src="assets/images/event-img2.png" alt="">
+                                        <div class="ev-text">
+                                            <h3>18 March - 19 March. 2019</h3>
+                                            <a href="event-single.html">10 rules that will help you avoid
+                                                performance</a>
+                                            <p>The Business Center, Dhaka</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="ev-content-wrap ptb res-ptb" data-aos="fade-up" data-aos-duration="1100">
+                            <div class="ev-content">
+                                <div class="ev-img-txt">
+                                    <a href="event-single.html">
+                                        <div class="ev-overlay">
+                                            <!-- Overlay -->
+                                        </div>
+                                        <img src="assets/images/event-img3.png" alt="">
+                                        <div class="ev-text">
+                                            <h3>18 March - 19 March. 2019</h3>
+                                            <a href="event-single.html">How to find the perfect office party venue</a>
+                                            <p>The Business Center, Dhaka</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="ev-content-wrap ptb res-ptb" data-aos="fade-up" data-aos-duration="1100">
+                            <div class="ev-content">
+                                <div class="ev-img-txt">
+                                    <a href="event-single.html">
+                                        <div class="ev-overlay">
+                                            <!-- Overlay -->
+                                        </div>
+                                        <img src="assets/images/event-img4.png" alt="">
+                                        <div class="ev-text">
+                                            <h3>18 March - 19 March. 2019</h3>
+                                            <a href="event-single.html">Why taking notes is still better than using
+                                                a</a>
+                                            <p>The Business Center, Dhaka</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="ev-content-wrap res-pd" data-aos="fade-up" data-aos-duration="1200">
+                            <div class="ev-content">
+                                <div class="ev-img-txt">
+                                    <a href="event-single.html">
+                                        <div class="ev-overlay">
+                                            <!-- Overlay -->
+                                        </div>
+                                        <img src="assets/images/event-img5.png" alt="">
+                                        <div class="ev-text">
+                                            <h3>18 March - 19 March. 2019</h3>
+                                            <a href="event-single.html">5 things you should never say in amstradam</a>
+                                            <p>The Business Center, Dhaka</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="ev-content-wrap res-pd" data-aos="fade-up" data-aos-duration="1300">
+                            <div class="ev-content">
+                                <div class="ev-img-txt">
+                                    <a href="event-single.html">
+                                        <div class="ev-overlay">
+                                            <!-- Overlay -->
+                                        </div>
+                                        <img src="assets/images/event-img6.png" alt="">
+                                        <div class="ev-text">
+                                            <h3>18 March - 19 March. 2019</h3>
+                                            <a href="event-single.html">Meet the city’s hottest conference venues</a>
+                                            <p>The Business Center, Dhaka</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ******************* -->
+    <!-- EVENTS SECTION ENDS -->
+    <!-- ******************* -->
+    <!-- ************** -->
+    <!-- FOOTER SECTION -->
+    <!-- ************** -->
+    <footer class="footer-wrapper">
+        <div class="footer-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-12">
+                        <div class="logo-wrap">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img class="img-fluid" src="assets/images/white.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-item-wrap">
+                            <div class="footer-item">
+                                <ul class="footer-ul">
+                                    <li><a href="#">Customer Support</a></li>
+                                    <li><a href="#">Sales</a></li>
+                                    <li><a href="#">Operations</a></li>
+                                    <li><a href="#">Emails</a></li>
+                                    <li><a href="#">SMS</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-item-wrap">
+                            <div class="footer-item">
+                                <ul class="footer-ul">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Career</a></li>
+                                    <li><a href="#">Education</a></li>
+                                    <li><a href="#">Tickets</a></li>
+                                    <li><a href="#">Social</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mx-auto">
+                        <div class="footer-item-wrap">
+                            <div class="footer-item">
+                                <div class="footer-join">
+                                    <h3 class="name">
+                                        Join Our Mailing List
+                                    </h3>
+                                    <div class="footer-join-bar">
+                                        <div class="form-group custom-join">
+                                            <input type="text" class="form-control join-control"
+                                                id="formGroupExampleInput" placeholder="email address">
+                                            <button class="join-btn">
+                                                join
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="follow-us">
+                                    <h3>follow us on</h3>
+                                    <a href="#0" class="ln-icon">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="copy-right">
+                            <h3>&copy; Omnnego International, 2020</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ******************* -->
+    <!-- FOOTER SECTION ENDS -->
+    <!-- ******************* -->
+    <!-- -->
+    <!-- ******** -->
+    <!-- JS FILES -->
+    <!-- ******** -->
+    <!-- jQuery -->
+    <script src="assets/plugins/js/jquery-3.4.0.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/plugins/js/bootstrap.bundle.min.js"></script>
+    <!-- Fontawesome -->
+    <script src="assets/plugins/js/fontawesome.min.js"></script>
+    <!-- Nice Select JS -->
+    <script src="assets/plugins/js/jquery.js"></script>
+    <script src="assets/plugins/js/jquery.nice-select.js"></script>
+    <!-- Counter Up JS -->
+    <script src="assets/plugins/js/jquery.waypoints.min.js"></script>
+    <script src="assets/plugins/js/jquery.counterup.min.js"></script>
+    <!-- AOS -->
+    <script src="assets/plugins/js/aos.js"></script>
+    <!-- Owl JS -->
+    <script src="assets/plugins/js/owl.carousel.min.js"></script>
+    <!-- Parallax -->
+    <script src="assets/plugins/js/parallax.js"></script>
+    <script src="assets/plugins/js/simpleParallax.js"></script>
+    <!-- Magnific-Pop JS -->
+    <script src="assets/plugins/js/jquery.magnific-popup.js"></script>
+    <!-- Wow -->
+    <script src="assets/plugins/js/wow.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

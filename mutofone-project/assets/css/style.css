@@ -1,0 +1,1335 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-wrapper .custom-nav {
+  background: -webkit-gradient(linear, left top, right top, from(#54007D), to(#2A007D));
+  background: linear-gradient(90deg, #54007D 0%, #2A007D 100%);
+}
+
+.nav-wrapper .custom-nav .custom-navbar .custom-nav-item:hover .custom-nav-link {
+  color: #FF4436;
+}
+
+.nav-wrapper .custom-nav .custom-navbar .custom-nav-item .custom-nav-link {
+  -webkit-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+  color: #F5F5F5;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.nav-wrapper .custom-nav .custom-navbar-2 .custom-nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  place-content: center;
+  place-items: center;
+  -webkit-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+}
+
+.nav-wrapper .custom-nav .custom-navbar-2 .custom-nav-item a {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #F5F5F5;
+  -webkit-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+}
+
+.nav-wrapper .custom-nav .custom-navbar-2 .custom-nav-item .fav-ic i, .nav-wrapper .custom-nav .custom-navbar-2 .custom-nav-item .user-ic i {
+  font-weight: 400;
+  color: #F5F5F5;
+  font-size: 18px;
+  -webkit-transition: .4s all ease-in-out;
+  transition: .4s all ease-in-out;
+}
+
+.nav-wrapper .custom-nav .custom-navbar-2 .custom-nav-item:hover .fav-ic i, .nav-wrapper .custom-nav .custom-navbar-2 .custom-nav-item:hover .user-ic i {
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  font-weight: 600;
+  color: #FF4436;
+}
+
+.section-header {
+  text-align: center;
+}
+
+.section-header h2 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1.6;
+  color: #333333;
+  text-transform: capitalize;
+}
+
+.section-header h2 span {
+  color: #FF4436;
+}
+
+.dis-none {
+  display: none;
+}
+
+.dis-block {
+  display: block;
+}
+
+.custom-btn {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  text-transform: uppercase;
+  color: white;
+  background-color: #B30086;
+  border-radius: 4px;
+  -webkit-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+  padding: 8px 28px;
+  text-decoration: none !important;
+}
+
+.custom-btn:hover {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  background-color: #FF4436;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  color: white;
+}
+
+.custom-btn-2 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: white;
+  background-color: #FF4436;
+  border-radius: 4px;
+  -webkit-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+  padding: 8px 28px;
+  text-decoration: none !important;
+}
+
+.custom-btn-2:hover {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  background-color: #FF4436;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  color: white;
+}
+
+.header-wrapper {
+  padding: 100px 0 0 0;
+  background-color: #F5F8FF;
+}
+
+.header-wrapper .header-wrap .header-content .buy-btn {
+  text-align: center;
+  background: linear-gradient(89.84deg, #A216F3 0.36%, #F316B8 100.08%);
+  display: inline-block;
+  margin-top: 160px;
+  position: relative;
+  -webkit-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+}
+
+.header-wrapper .header-wrap .header-content .buy-btn::before {
+  border-right: 50px solid #A216F3;
+  border-bottom: 66px solid transparent;
+  border-top: 66px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  top: 0px;
+  width: 0;
+  left: -50px;
+}
+
+.header-wrapper .header-wrap .header-content .buy-btn:hover {
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  -webkit-transform: skewX(8deg);
+          transform: skewX(8deg);
+}
+
+.header-wrapper .header-wrap .header-content .buy-btn:hover::before {
+  left: -49px;
+}
+
+.header-wrapper .header-wrap .header-content .buy-btn a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  padding: 22px 30px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 1.3;
+}
+
+.header-wrapper .header-wrap .header-content .sell-btn {
+  text-align: center;
+  background: linear-gradient(89.84deg, #013880 0.36%, #A216F3 100.08%);
+  display: inline-block;
+  margin-top: 80px;
+  position: relative;
+  -webkit-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+}
+
+.header-wrapper .header-wrap .header-content .sell-btn::after {
+  border-left: 50px solid #A216F3;
+  border-bottom: 66px solid transparent;
+  border-top: 66px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  top: 0px;
+  width: 0;
+  right: -50px;
+}
+
+.header-wrapper .header-wrap .header-content .sell-btn:hover {
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  -webkit-transform: skewX(-8deg);
+          transform: skewX(-8deg);
+}
+
+.header-wrapper .header-wrap .header-content .sell-btn:hover::after {
+  right: -49px;
+}
+
+.header-wrapper .header-wrap .header-content .sell-btn a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  padding: 22px 30px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 1.3;
+}
+
+.header-wrapper .header-wrap .header-img {
+  text-align: center;
+}
+
+.search-wrapper {
+  padding: 70px 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#450166), to(#2C0073));
+  background-image: linear-gradient(90deg, #450166 0%, #2C0073 100%);
+}
+
+.search-wrapper .search-wrap .search-content-wrap {
+  -webkit-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+}
+
+.search-wrapper .search-wrap .search-content-wrap form .form-row {
+  place-content: center;
+  place-items: center;
+}
+
+.search-wrapper .search-wrap .search-content-wrap form .custom-form-wrap .custom-form-group input {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.search-wrapper .search-wrap .search-content-wrap form .custom-form-wrap .custom-form-group input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.search-wrapper .search-wrap .search-content-wrap form .custom-form-wrap .custom-form-group input:focus:-ms-input-placeholder {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.search-wrapper .search-wrap .search-content-wrap form .custom-form-wrap .custom-form-group input:focus::-ms-input-placeholder {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.search-wrapper .search-wrap .search-content-wrap form .custom-form-wrap .custom-form-group input:focus::placeholder {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.search-wrapper .search-wrap .search-content-wrap form .custom-form-wrap .custom-form-group input::-webkit-input-placeholder {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #777777;
+  -webkit-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+}
+
+.search-wrapper .search-wrap .search-content-wrap form .custom-form-wrap .custom-form-group input:-ms-input-placeholder {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #777777;
+  -webkit-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+}
+
+.search-wrapper .search-wrap .search-content-wrap form .custom-form-wrap .custom-form-group input::-ms-input-placeholder {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #777777;
+  -webkit-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+}
+
+.search-wrapper .search-wrap .search-content-wrap form .custom-form-wrap .custom-form-group input::placeholder {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #777777;
+  -webkit-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+}
+
+.search-wrapper .search-wrap .search-content-wrap form .custom-form-wrap .search-btn .custom-btn {
+  text-align: center;
+  width: 100%;
+  display: block;
+  border: none;
+  outline: none;
+}
+
+.search-wrapper .search-wrap .search-content-wrap form .custom-form-wrap .smart-btn .custom-btn {
+  border: none;
+  outline: none;
+}
+
+.search-wrapper .search-wrap .smart-search-wrap {
+  -webkit-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+}
+
+.search-wrapper .search-wrap .smart-search-wrap form .custom-form-group {
+  margin: 0;
+}
+
+.search-wrapper .search-wrap .smart-search-wrap form .custom-form-group select {
+  background-color: transparent;
+  color: white;
+  font-family: "Titillium Web", sans-serif;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 5px 6px;
+}
+
+.search-wrapper .search-wrap .smart-search-wrap form .custom-form-group .smart-btn {
+  margin-top: 25px;
+}
+
+.search-wrapper .search-wrap .smart-search-wrap form .custom-form-group .custom-btn {
+  border: none;
+  outline: none;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.auction-wrapper {
+  padding: 100px 0;
+}
+
+.auction-wrapper .auction-wrap .auction-content-wrap {
+  margin-top: 30px;
+}
+
+.auction-wrapper .auction-wrap .auction-content-wrap .custom-pill-wrap ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+}
+
+.auction-wrapper .auction-wrap .auction-content-wrap .custom-pill-wrap ul li {
+  margin: 0 24px;
+}
+
+.auction-wrapper .auction-wrap .auction-content-wrap .custom-pill-wrap ul li a {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  padding: 6px 0;
+}
+
+.auction-wrapper .auction-wrap .auction-content-wrap .custom-pill-wrap ul li .active {
+  background-color: white;
+  border-radius: 0;
+  border-bottom: 2px solid #FF4436;
+}
+
+.auction-wrapper .auction-wrap .auction-content-wrap .custom-tab-wrap {
+  margin-top: 40px;
+}
+
+.auction-wrapper .auction-wrap .auction-content-wrap .custom-tab-wrap .auction-content .auction-product-img {
+  background: #FBFBFB;
+  -webkit-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  padding: 38px;
+  text-align: center;
+}
+
+.auction-wrapper .auction-wrap .auction-content-wrap .custom-tab-wrap .auction-content .auction-info .product-name h3 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.6;
+  color: #333333;
+  margin: 0;
+}
+
+.auction-wrapper .auction-wrap .auction-content-wrap .custom-tab-wrap .auction-content .auction-info .product-details {
+  margin: 10px 0;
+}
+
+.auction-wrapper .auction-wrap .auction-content-wrap .custom-tab-wrap .auction-content .auction-info .product-details p {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333333;
+  margin: 0;
+}
+
+.auction-wrapper .auction-wrap .auction-content-wrap .custom-tab-wrap .auction-content .auction-info .bid-info {
+  margin: 10px 0;
+}
+
+.auction-wrapper .auction-wrap .auction-content-wrap .custom-tab-wrap .auction-content .auction-info .bid-info p {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  margin: 0;
+}
+
+.auction-wrapper .auction-wrap .auction-content-wrap .custom-tab-wrap .auction-content .auction-info .bid-status {
+  margin: 10px 0;
+}
+
+.auction-wrapper .auction-wrap .auction-content-wrap .custom-tab-wrap .auction-content .auction-info .bid-status p {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.auction-wrapper .auction-wrap .auction-content-wrap .custom-tab-wrap .auction-content .auction-info .bid-status i {
+  font-weight: 400;
+}
+
+.auction-wrapper .auction-wrap .auction-content-wrap .custom-tab-wrap .auction-content .auction-info .bid-status .bid-quantity {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #FF4436;
+}
+
+.auction-wrapper .auction-wrap .auction-content-wrap .custom-tab-wrap .auction-content .auction-info .bid-status .bid-open span {
+  color: #0DE03C;
+}
+
+.auction-wrapper .auction-wrap .auction-content-wrap .custom-tab-wrap .auction-content .auction-info .bid-status .bid-close span {
+  color: #E00D0D;
+}
+
+.auction-wrapper .auction-wrap .auction-content-wrap .see-more-btn {
+  padding: 40px 0 0 0;
+  text-align: center;
+}
+
+.merchant-wrapper {
+  padding: 100px 0;
+}
+
+.merchant-wrapper .merchant-wrap .merchant-content-wrap {
+  margin-top: 20px;
+}
+
+.merchant-wrapper .merchant-wrap .merchant-content-wrap .merchant-content {
+  margin-top: 30px;
+}
+
+.merchant-wrapper .merchant-wrap .merchant-content-wrap .merchant-content .merchant-img {
+  background: #FBFBFB;
+  -webkit-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  padding: 24px;
+}
+
+.merchant-wrapper .merchant-wrap .merchant-content-wrap .merchant-content .merchant-info .merchant-shop-name h3 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.6;
+  color: #333333;
+}
+
+.merchant-wrapper .merchant-wrap .merchant-content-wrap .merchant-content .merchant-info .merchant-shop-txt p {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333333;
+}
+
+.merchant-wrapper .merchant-wrap .merchant-content-wrap .merchant-content .merchant-info .merchant-shop-location p {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  margin: 0;
+}
+
+.merchant-wrapper .merchant-wrap .merchant-content-wrap .merchant-content .merchant-info .merchant-available-product p {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #FF4436;
+  margin: 0;
+}
+
+.merchant-wrapper .merchant-wrap .merchant-content-wrap .merchant-content .merchant-info .merchant-shop-review {
+  margin: 12px 0;
+}
+
+.merchant-wrapper .merchant-wrap .merchant-content-wrap .merchant-content .merchant-info .merchant-shop-review a {
+  text-decoration: none;
+}
+
+.merchant-wrapper .merchant-wrap .merchant-content-wrap .merchant-content .merchant-info .merchant-shop-review a i {
+  color: #FF4436;
+}
+
+.merchant-wrapper .merchant-wrap .merchant-content-wrap .merchant-content .merchant-info .merchant-shop-explore a {
+  text-decoration: none;
+  padding: 8px 28px;
+}
+
+.merchant-wrapper .merchant-wrap .merchant-content-wrap .see-all-btn {
+  padding: 40px 0 0 0;
+  text-align: center;
+}
+
+.featured-wrapper {
+  padding: 100px 0;
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap {
+  margin-top: 30px;
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap .custom-pill-wrap {
+  margin: 20px 0;
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap .custom-pill-wrap ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap .custom-pill-wrap ul li {
+  margin: 0 24px;
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap .custom-pill-wrap ul li a {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  padding: 6px 0;
+  -webkit-transition: .1s all ease-in-out;
+  transition: .1s all ease-in-out;
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap .custom-pill-wrap ul li .active {
+  background-color: white;
+  border-radius: 0;
+  color: #FF4436;
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap .custom-tab-wrap {
+  margin-top: 40px;
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap .custom-tab-wrap .featured-content {
+  background: #FBFBFB;
+  -webkit-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  padding: 24px 16px;
+  display: block;
+  border: none;
+  outline: none;
+  text-align: initial;
+  -webkit-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap .custom-tab-wrap .featured-content:hover {
+  background: #f5f8ff;
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap .custom-tab-wrap .featured-content:hover .featured-img img {
+  -webkit-transform: scale(1.075);
+          transform: scale(1.075);
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap .custom-tab-wrap .featured-content .featured-img {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  padding: 8px 0;
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap .custom-tab-wrap .featured-content .featured-img img {
+  -webkit-transition: .5s all ease-in-out;
+  transition: .5s all ease-in-out;
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap .custom-tab-wrap .featured-content .featured-product-info {
+  margin-top: 18px;
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap .custom-tab-wrap .featured-content .featured-product-info .feat-product-name {
+  margin-bottom: 4px;
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap .custom-tab-wrap .featured-content .featured-product-info .feat-product-name h5 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  margin: 0;
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap .custom-tab-wrap .featured-content .featured-product-info .feat-product-status {
+  margin-bottom: 4px;
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap .custom-tab-wrap .featured-content .featured-product-info .feat-product-status p {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  margin: 0;
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap .custom-tab-wrap .featured-content .featured-product-info .feat-product-price h5 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #FF4436;
+  margin: 0;
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap .custom-tab-wrap .featured-content .featured-product-info .feat-product-place p {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  margin: 0;
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap .custom-tab-wrap .feat-gap {
+  margin: 30px 0;
+}
+
+.featured-wrapper .featured-wrap .featured-content-wrap .see-more-btn {
+  padding: 40px 0 0 0;
+  text-align: center;
+}
+
+.brand-wrapper {
+  padding: 100px 0;
+}
+
+.brand-wrapper .brand-wrap .brand-inner-wrap {
+  margin-top: 20px;
+}
+
+.brand-wrapper .brand-wrap .brand-inner-wrap .brand-slider .owl-dots {
+  margin-top: 30px;
+}
+
+.brand-wrapper .brand-wrap .brand-inner-wrap .brand-slider .owl-dots button {
+  outline: none;
+  -webkit-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+}
+
+.brand-wrapper .brand-wrap .brand-inner-wrap .brand-slider .owl-dots button:hover span {
+  background-color: orange;
+}
+
+.brand-wrapper .brand-wrap .brand-inner-wrap .brand-slider .owl-dots button span {
+  -webkit-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+}
+
+.brand-wrapper .brand-wrap .brand-inner-wrap .brand-slider .owl-dots .active:hover span {
+  background-color: #FF4436;
+}
+
+.brand-wrapper .brand-wrap .brand-inner-wrap .brand-slider .owl-dots .active span {
+  background-color: #FF4436;
+}
+
+.brand-wrapper .brand-wrap .brand-inner-wrap .brand-slider .brand-inner {
+  background: #FBFBFB;
+  -webkit-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  padding: 28px;
+}
+
+.brand-wrapper .brand-wrap .brand-inner-wrap .brand-slider .owl-stage-outer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer-wrapper {
+  background: -webkit-gradient(linear, left top, right top, from(#54007D), to(#2A007D));
+  background: linear-gradient(90deg, #54007D 0%, #2A007D 100%);
+  padding: 100px 0 0 0;
+  border-top: 4px solid #FF4436;
+}
+
+.footer-wrapper .footer-wrap .footer-item-wrap .footer-logo {
+  padding: 0 0 8px 0;
+}
+
+.footer-wrapper .footer-wrap .footer-item-wrap .footer-logo a {
+  text-decoration: none;
+}
+
+.footer-wrapper .footer-wrap .footer-item-wrap .footer-txt {
+  margin: 20px 0;
+  max-width: 85%;
+}
+
+.footer-wrapper .footer-wrap .footer-item-wrap .footer-txt p {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: white;
+  margin: 0;
+}
+
+.footer-wrapper .footer-wrap .footer-item-wrap .footer-social {
+  margin: 24px 0;
+}
+
+.footer-wrapper .footer-wrap .footer-item-wrap .footer-social .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer-wrapper .footer-wrap .footer-item-wrap .footer-social .social .social-ic {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  border-radius: 50%;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  margin-right: 16px;
+  -webkit-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+  cursor: pointer;
+}
+
+.footer-wrapper .footer-wrap .footer-item-wrap .footer-social .social .social-ic:hover {
+  background-color: #FF4436;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+.footer-wrapper .footer-wrap .footer-item-wrap .footer-social .social .social-ic:hover a {
+  color: #FBFBFB;
+}
+
+.footer-wrapper .footer-wrap .footer-item-wrap .footer-social .social .social-ic a {
+  color: #54007D;
+  padding: 6px;
+  -webkit-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+}
+
+.footer-wrapper .footer-wrap .footer-item-wrap .footer-li .footer-title h3 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+}
+
+.footer-wrapper .footer-wrap .footer-item-wrap .footer-li ul {
+  list-style: none;
+  margin: 0;
+}
+
+.footer-wrapper .footer-wrap .footer-item-wrap .footer-li ul li a {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #FFFFFF;
+}
+
+.footer-wrapper .small-footer {
+  padding: 24px 0;
+  border-top: 1px solid rgba(102, 102, 102, 0.4);
+}
+
+.footer-wrapper .small-footer .sm-footer-item .copyright p,
+.footer-wrapper .small-footer .sm-footer-item .terms p {
+  margin: 0;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+}
+
+.footer-wrapper .small-footer .sm-footer-item .copyright p a,
+.footer-wrapper .small-footer .sm-footer-item .terms p a {
+  color: white;
+}
+
+.footer-wrapper .small-footer .sm-footer-item .copyright p span,
+.footer-wrapper .small-footer .sm-footer-item .terms p span {
+  margin: 0 12px;
+}
+
+#search-result-wrapper {
+  font-family: "Titillium Web", sans-serif;
+}
+
+#search-result-wrapper .search-head-wrap {
+  padding: 40px 0 0px;
+}
+
+#search-result-wrapper .search-head-wrap .search-content-wrap form .form-row {
+  place-content: center;
+  place-items: center;
+}
+
+#search-result-wrapper .search-head-wrap .search-content-wrap form .custom-form-wrap .custom-form-group input {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #2a007d;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 18px 24px;
+  display: block;
+}
+
+#search-result-wrapper .search-head-wrap .search-content-wrap form .custom-form-wrap .custom-form-group input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#search-result-wrapper .search-head-wrap .search-content-wrap form .custom-form-wrap .custom-form-group input:focus:-ms-input-placeholder {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#search-result-wrapper .search-head-wrap .search-content-wrap form .custom-form-wrap .custom-form-group input:focus::-ms-input-placeholder {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#search-result-wrapper .search-head-wrap .search-content-wrap form .custom-form-wrap .custom-form-group input:focus::placeholder {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#search-result-wrapper .search-head-wrap .search-content-wrap form .custom-form-wrap .custom-form-group input::-webkit-input-placeholder {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #777777;
+  -webkit-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+}
+
+#search-result-wrapper .search-head-wrap .search-content-wrap form .custom-form-wrap .custom-form-group input:-ms-input-placeholder {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #777777;
+  -webkit-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+}
+
+#search-result-wrapper .search-head-wrap .search-content-wrap form .custom-form-wrap .custom-form-group input::-ms-input-placeholder {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #777777;
+  -webkit-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+}
+
+#search-result-wrapper .search-head-wrap .search-content-wrap form .custom-form-wrap .custom-form-group input::placeholder {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #777777;
+  -webkit-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+}
+
+#search-result-wrapper .search-head-wrap .search-content-wrap form .custom-form-wrap .search-btn .custom-btn {
+  border: 1px solid #2A007D;
+  text-align: center;
+  display: block;
+  padding: 7px 65px;
+  outline: none;
+  background-color: #fff;
+  color: #FF4436;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#search-result-wrapper .search-head-wrap .search-content-wrap form .custom-form-wrap .search-btn .custom-btn:hover {
+  background: #FF4436;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+#search-result-wrapper .search-head-wrap .search-shortcut p {
+  text-align: center;
+  font-weight: 600;
+  color: #333333;
+  font-size: 18px;
+  margin: 5px 0 0;
+}
+
+#search-result-wrapper .quick-search {
+  padding: 25px 0 25px 15px;
+  margin: 60px 0 0;
+  -webkit-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+}
+
+#search-result-wrapper .quick-search .quick-search-header {
+  color: #FF4436;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+
+#search-result-wrapper .quick-search ul {
+  margin: 0 0 24px;
+}
+
+#search-result-wrapper .quick-search li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+#search-result-wrapper .quick-search .state {
+  margin: 0 0 0 5px;
+}
+
+#search-result-wrapper .result-wrapper {
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap {
+  margin-top: 30px;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-pill-wrap {
+  margin: 20px 0;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-pill-wrap ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-pill-wrap ul li {
+  margin: 0 24px;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-pill-wrap ul li a {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  padding: 6px 0;
+  -webkit-transition: .1s all ease-in-out;
+  transition: .1s all ease-in-out;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-pill-wrap ul li .active {
+  background-color: white;
+  border-radius: 0;
+  color: #FF4436;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-tab-wrap .featured-content {
+  background: #FBFBFB;
+  -webkit-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  padding: 25px 19px;
+  display: block;
+  border: none;
+  outline: none;
+  text-align: initial;
+  -webkit-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-tab-wrap .featured-content:hover {
+  background: #f5f8ff;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-tab-wrap .featured-content:hover .featured-img img {
+  -webkit-transform: scale(1.075);
+          transform: scale(1.075);
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-tab-wrap .featured-content .featured-img {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  padding: 8px 0;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-tab-wrap .featured-content .featured-img img {
+  -webkit-transition: .5s all ease-in-out;
+  transition: .5s all ease-in-out;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-tab-wrap .featured-content .featured-product-info {
+  margin-top: 18px;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-tab-wrap .featured-content .featured-product-info .feat-product-name {
+  margin-bottom: 4px;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-tab-wrap .featured-content .featured-product-info .feat-product-name h5 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  margin: 0;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-tab-wrap .featured-content .featured-product-info .feat-product-status {
+  margin-bottom: 4px;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-tab-wrap .featured-content .featured-product-info .feat-product-status p {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  margin: 0;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-tab-wrap .featured-content .featured-product-info .feat-product-price h5 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #FF4436;
+  margin: 0;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-tab-wrap .featured-content .featured-product-info .feat-product-place p {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  margin: 0;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-tab-wrap .feat-gap {
+  margin: 30px 0;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-tab-wrap .result-details {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Titillium Web", sans-serif;
+  color: #333333;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-tab-wrap .result-details p {
+  margin: 0;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-tab-wrap .result-details .sort-by {
+  padding-bottom: 10px;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-tab-wrap .result-details .sort-by .pl {
+  padding-left: 10px;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .custom-tab-wrap .result-details .sort-by .nice-select {
+  font-size: 12px !important;
+  padding: 0 25px 0 10px;
+  border: 1px solid #333;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .bottom-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .bottom-bar a {
+  border: none !important;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .bottom-bar .num {
+  color: #333333;
+  margin: 0 3px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .bottom-bar .num:hover {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .bottom-bar .num-btn {
+  background-color: #FF4436;
+  color: #FBFBFB;
+  border-radius: 4px;
+}
+
+#search-result-wrapper .result-wrapper .result-wrap .result-content-wrap .bottom-bar .num-btn:hover {
+  background-color: #FF4436;
+}
+
+#setting-wrapper {
+  font-family: "Titillium Web", sans-serif;
+}
+
+#setting-wrapper .search-content-wrap {
+  margin: 45px 0 0;
+}
+
+#setting-wrapper .search-content-wrap form .form-row {
+  place-content: center;
+  place-items: center;
+}
+
+#setting-wrapper .search-content-wrap form .custom-form-wrap .custom-form-group input {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #2a007d;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 18px 24px;
+  display: block;
+}
+
+#setting-wrapper .search-content-wrap form .custom-form-wrap .custom-form-group input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#setting-wrapper .search-content-wrap form .custom-form-wrap .custom-form-group input:focus:-ms-input-placeholder {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#setting-wrapper .search-content-wrap form .custom-form-wrap .custom-form-group input:focus::-ms-input-placeholder {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#setting-wrapper .search-content-wrap form .custom-form-wrap .custom-form-group input:focus::placeholder {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#setting-wrapper .search-content-wrap form .custom-form-wrap .custom-form-group input::-webkit-input-placeholder {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #777777;
+  -webkit-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+}
+
+#setting-wrapper .search-content-wrap form .custom-form-wrap .custom-form-group input:-ms-input-placeholder {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #777777;
+  -webkit-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+}
+
+#setting-wrapper .search-content-wrap form .custom-form-wrap .custom-form-group input::-ms-input-placeholder {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #777777;
+  -webkit-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+}
+
+#setting-wrapper .search-content-wrap form .custom-form-wrap .custom-form-group input::placeholder {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #777777;
+  -webkit-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+}
+
+#setting-wrapper .search-content-wrap form .custom-form-wrap .search-btn .custom-btn {
+  border: 1px solid #2A007D;
+  text-align: center;
+  display: block;
+  padding: 7px 65px;
+  outline: none;
+  background-color: #fff;
+  color: #FF4436;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#setting-wrapper .search-content-wrap form .custom-form-wrap .search-btn .custom-btn:hover {
+  background: #FF4436;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+#setting-wrapper .upload-content-wrap {
+  text-align: center;
+}
+
+#setting-wrapper .upload-content-wrap .upload-img {
+  max-width: 130px;
+  padding: 50px 0 10px;
+}
+
+#setting-wrapper .setting-body-wrap .sidebar-wrap {
+  font-size: 16px;
+}
+
+#setting-wrapper .setting-body-wrap .sidebar-wrap .nav-link {
+  background-color: #fff !important;
+  color: #333333;
+}
+
+#setting-wrapper .setting-body-wrap .sidebar-wrap .nav-link:focus {
+  font-size: 20px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */

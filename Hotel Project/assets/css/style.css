@@ -1,0 +1,41 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #fbf3fb;
+  max-width: 100%;
+}
+
+body .container {
+  max-width: 1140px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#footer-wrapper {
+  background-image: url(../images/footer-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#footer-wrapper .footer-header {
+  color: #fff;
+  font-size: 68px;
+  font-weight: 700;
+  font-family: "Quicksand", sans-serif;
+  margin: 55px 0 110px 0;
+}
+
+#footer-wrapper .footer-list {
+  padding: 0 0 200px 0;
+}
+
+#footer-wrapper .footer-list ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 0 0 15px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,356 @@
+//* * Font Variable *
+$font1: 'Oxygen', sans-serif;
+
+//* * Color Variable *
+$purple: #9E4CDF;
+$white: #ffffff;
+$black: #444444;
+
+//? * Default CSS *
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,html {
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+//* Custom Button *
+.custom-btn {
+    background-color: $purple;
+    color: $white;
+    border-radius: 24px;
+    padding: 15px 20px;
+    font-weight: 700;
+    box-shadow: none !important;
+    
+    
+    &:hover {
+        color: $white;
+        background: #C57BFF;
+    }
+}
+.custom-btn-2 {
+    background-color: $purple;
+    color: $white !important; 
+    border-radius: 4px;
+    padding: 8px 15px !important;
+    font-weight: 700;
+    box-shadow: none !important;
+    
+    
+    &:hover {
+        color: $white;
+        background: #C57BFF;
+    }
+}
+
+//* Custom CSS *
+
+body {
+    background-image: url(../images/full-bck.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    background: rgba(31, 172, 236, 0.04);
+
+    hr {
+        border: 1px solid #C4C4C4;
+        ;
+    }
+
+}
+    
+//! NAVBAR
+
+#nav-wrapper {
+        position: relative;
+        
+        
+        .custom-navbar-1 {
+            font-size: 14px;
+            font-weight: 700;
+            color: $black ;
+            font-family: $font1;
+            padding: 0 0 0 100px;
+            
+            li {
+                padding: 0 40px 0 0;
+                
+                a {
+                    color: $black;
+                }
+            }
+        }
+        .custom-navbar-2 {
+            font-size: 14px;
+            font-weight: 700;
+            color: $black;
+            font-family: $font1;
+            padding: 0;
+            z-index: 0;
+            
+            li {
+                padding: 0 0 0 20px;
+            }
+        }
+        
+}
+    
+//! Header 
+
+#main-header-wrapper {
+    background: linear-gradient(180deg, #72CFFA 15.1%, rgba(114, 207, 250, 0) 90.1%);
+    color: $black;
+    font-family: $font1;
+    position: relative;
+    padding: 0 0 255px 0;
+    // height: 100vh;
+    
+    
+    // .landing-bck {
+    //     max-width: 70%;
+    //     position: absolute;
+    //     bottom: -10px;
+    //     right: -10px;
+    //     z-index: -1;
+    // }
+    h1 {
+        font-size: 48px;
+        font-weight: 700;
+        padding: 100px 560px 35px 0;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 400px;
+        padding: 0 500px 35px 0px;
+    }
+    .header-btn {
+        .learn-more {
+            text-decoration: none;
+            margin: 0 0 0 20px;
+            font-size: 14px;
+            color: $purple;
+
+            img {
+                margin: 0 0 2px 5px;
+
+            }
+        }
+    }
+    .bottom-img {
+        position: absolute;
+        top: 350px;
+        right: 100px;
+    }
+}
+
+//! Best Company
+
+#best-company-wrapper {
+    text-align: center;
+    color: $black;
+    font-family: $font1;
+    padding: 60px 0;
+    .content-text {
+        display: flex;
+        align-items: center;
+    }
+    .best-company-content {
+        padding: 100px 0;
+
+        h2 {
+            font-size: 36px;
+            font-weight: 400;
+            padding: 35px 0 35px;
+            margin: 0;
+        }
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            padding: 0 90px;
+            line-height: 20px;
+        }
+    }
+}
+
+//! Book Cleaner
+
+#book-cleaner-wrapper {
+    text-align: center;
+    color: $black;
+    font-family: $font1;
+
+    .book-cleaner-header {
+       h1 {
+        font-size: 54px;
+        font-weight: 700;
+        padding: 30px 0;
+       }
+    }
+    .book-cleaner-content {
+        .content-wrap {
+            margin: 0 0 50px;
+        }
+        .content-text {
+            display: flex;
+            align-items: center;
+            font-weight: 400;
+            font-size: 24px;
+            
+        }
+        .content-text-1{
+            padding: 10px 30px 0;
+        }
+        .content-text-2 {
+            padding: 0 45px;
+        }
+    }
+}
+
+//! Stacks Up
+
+#stacks-up-wrapper {
+    text-align: center;
+    color: $black;
+    font-family: $font1;
+    padding: 35px 0 45px;
+
+    h1 {
+        font-weight: 700;
+        font-size: 48px;
+        margin: 0 0 20px;
+    }
+    
+    p {
+        font-weight: 300;
+        font-size: 18px;
+        margin: 0px 0 35px;
+
+        .faq {
+            color: #27debf;
+            text-decoration: none;
+        }
+    }
+}
+
+//! Bangladesh
+
+#bangladesh-wrapper {
+    text-align: center;
+    color: $black;
+    font-family: $font1;
+    padding: 30px 0 20px;
+
+    .ban-content-wrap {
+        padding: 65px 0 0; 
+
+        h2 {
+            font-size: 36px;
+            font-weight: 700;
+        }
+        .ban-body {
+            padding: 25px 50px 0;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .ban-bottom-line {
+            padding: 20px 0 0;
+            font-size: 16px;
+            font-weight: 300;
+        }
+    }
+}
+
+//! Place Sparking
+
+#place-sparking-wrapper {
+    text-align: center;
+    color: $black;
+    font-family: $font1;
+    padding: 35px 0 70px;
+
+    h1 {
+        font-weight: 700;
+        font-size: 48px;
+        margin: 0 0 30px;
+    }
+    
+    p {
+        font-weight: 300;
+        font-size: 18px;
+        margin: 20px 0 0;
+
+        .faq {
+            color: #27debf;
+            text-decoration: none;
+        }
+    }
+}
+
+//! Footer
+
+#footer-wrapper {
+    font-family: $font1;
+    color: $black;
+    background: rgba(158, 76, 223, 0.27);
+    padding: 45px 0 0;
+
+    .footer-content {
+        font-size: 18px;
+        font-weight: 300;
+        padding: 20px 50px 0 0;
+
+        span {
+            font-weight: 700;
+        }
+    }
+    .footer-item-wrap {
+        font-size: 18px;
+
+        .footer-title {
+            padding: 0 0 25px;
+
+            h3 {
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
+        ul {
+            list-style: none;
+            
+            li {
+                padding: 0 0 8px;
+            }
+        }
+        a {
+            color: $black;
+            font-weight: 300;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .sl {
+            padding: 0 10px 0 0;
+            max-width: 35px; 
+        }
+    }
+    .copyright-wrap {
+        p {
+            margin: o;
+            text-align: center;
+            font-weight: 300;
+            font-size: 14px;
+
+            span{
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+

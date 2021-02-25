@@ -1,0 +1,2702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mutofone</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/plugins/css/bootstrap.min.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="assets/plugins/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Hover CSS -->
+    <link rel="stylesheet" href="assets/plugins/css/hover.css">
+    <!-- Owl CSS -->
+    <link rel="stylesheet" href="assets/plugins/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/css/owl.theme.default.min.css">
+    <!-- Pretty Checkbox -->
+    <link rel="stylesheet" href="assets/plugins/css/pretty-checkbox.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!--
+      -- ─── NAVBAR ─────────────────────────────────────────────────────────────────────
+      -->
+    <header class="nav-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light custom-nav">
+            <div class="container">
+                <div class="logo-wrap">
+                    <div class="logo">
+                        <a class="navbar-brand" href="#0">
+                            <img src="assets/images/logo.svg" alt="mutofone-logo" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">                    
+                    <ul class="navbar-nav ml-auto custom-navbar">
+                        <li class="nav-item custom-nav-item">
+                            <a class="nav-link custom-nav-link" href="#0">Used Phones</a>
+                        </li>
+                        <li class="nav-item custom-nav-item">
+                            <a class="nav-link custom-nav-link" href="#0">New Phones</a>
+                        </li>
+                        <li class="nav-item custom-nav-item">
+                            <a class="nav-link custom-nav-link" href="#0">Sell your Phone</a>
+                        </li>
+                        <li class="nav-item custom-nav-item">
+                            <a class="nav-link custom-nav-link" href="#0">Contact Us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto custom-navbar custom-navbar-2">
+                        <!-- <li class="nav-item custom-nav-item">
+                            <div class="fav-ic">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                            <a class="nav-link custom-nav-link" href="#0">Favourites</a>
+                        </li> -->
+                        <li class="nav-item custom-nav-item">
+                            <div class="user-ic">
+                                <i class="fa fa-user"></i>
+                            </div>
+                            <a class="nav-link custom-nav-link" href="#0">Account</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--
+      -- ─── HEADER ─────────────────────────────────────────────────────────────────────
+      -->
+    <section class="header-wrapper">
+        <div class="header-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8 mx-auto">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4">
+                                        <div class="header-content">
+                                            <div class="buy-btn">
+                                                <a href="#0">Buy Smart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4">
+                                        <div class="header-img">
+                                            <img src="assets/images/header-img.svg" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4">
+                                        <div class="header-content">
+                                            <div class="sell-btn">
+                                                <a href="#0">Sell Smart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--
+      -- ─── SEARCH ─────────────────────────────────────────────────────────────────────
+      -->
+    <section class="search-wrapper">
+        <div class="search-wrap">
+            <div class="container">
+                <div class="search-content-wrap">
+                    <div class="row">
+                        <div class="col-md-8 col-lg-8 mx-auto">
+                            <div class="row">
+                                <div class="col-md-12 col-lg-12">
+                                    <form>
+                                        <div class="form-row custom-form-wrap">
+                                            <div class="form-group col-md-6 custom-form-group">
+                                                <input type="text" class="form-control" id="searchInput"
+                                                    placeholder="Enter Model or Brand eg. iPhone 11 or Xiaomi">
+                                            </div>
+                                            <div class="form-group col-md-3 custom-form-group">
+                                                <div class="search-btn">
+                                                    <button class="custom-btn">Search</button>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-md-3 custom-form-group">
+                                                <div class="smart-btn">
+                                                    <button type="button" onclick="smartBtn()" class="custom-btn">Smart Search</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="smart-search-wrap dis-none">
+                    <div class="row">
+                        <div class="col-lg-10 col-md-10 mx-auto">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-8 col-lg-8">
+                                        <div class="form-row">
+                                            <div class="form-group col-md-3 custom-form-group">
+                                                <select class="form-control" id="brand">
+                                                    <option>Brand (Any)</option>
+                                                    <option>Apple</option>
+                                                    <option>Samsung</option>
+                                                    <option>Huawei</option>
+                                                    <option>Xiaomi</option>
+                                                    <option>Oneplus</option>
+                                                    <option>Google</option>
+                                                    <option>Realme</option>
+                                                    <option>Oppo</option>
+                                                    <option>Vivo</option>
+                                                </select>
+                                                <select class="form-control mt-3 mb-3" id="location">
+                                                    <option>Locatioin (Any)</option>
+                                                    <option>Dhaka</option>
+                                                    <option>Chittagong</option>
+                                                    <option>Rajshahi</option>
+                                                    <option>Khulna</option>
+                                                    <option>Barishal</option>
+                                                    <option>Sylhet</option>
+                                                    <option>Rangpur</option>
+                                                    <option>Mymensingh</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-md-3 custom-form-group">
+                                                <select class="form-control" id="ram">
+                                                    <option>Ram (Any)</option>
+                                                    <option>1 GB</option>
+                                                    <option>2 GB</option>
+                                                    <option>3 GB</option>
+                                                    <option>4 GB</option>
+                                                    <option>6 GB</option>
+                                                    <option>8 GB</option>
+                                                    <option>12 GB</option>
+                                                </select>
+                                                <select class="form-control mt-3 mb-3" id="rom">
+                                                    <option>Rom (Any)</option>
+                                                    <option>1 GB</option>
+                                                    <option>2 GB</option>
+                                                    <option>4 GB</option>
+                                                    <option>8 GB</option>
+                                                    <option>16 GB</option>
+                                                    <option>32 GB</option>
+                                                    <option>64 GB</option>
+                                                    <option>128 GB</option>
+                                                    <option>256 GB</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-md-3 custom-form-group">
+                                                <select class="form-control" id="condition">
+                                                    <option>Condition (Any)</option>
+                                                    <option>New</option>
+                                                    <option>Used</option>
+                                                </select>
+                                                <select class="form-control mt-3 mb-3" id="sealStatus">
+                                                    <option>Seal Status (Any)</option>
+                                                    <option>Sealed</option>
+                                                    <option>Unsealed</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-md-3 custom-form-group">
+                                                <select class="form-control" id="priceMin">
+                                                    <option>Price (Min)</option>
+                                                    <option>2,000</option>
+                                                    <option>3,000</option>
+                                                    <option>4,000</option>
+                                                    <option>5,000</option>
+                                                </select>
+                                                <select class="form-control mt-3 mb-3" id="priceMax">
+                                                    <option>Price (Max)</option>
+                                                    <option>30,000</option>
+                                                    <option>40,000</option>
+                                                    <option>50,000</option>
+                                                    <option>60,000</option>
+                                                    <option>80,000</option>
+                                                    <option>100,000</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4">
+                                        <div class="form-row">
+                                            <div class="form-group col-md-8 custom-form-group">
+                                                <div class="smart-btn">
+                                                    <button class="custom-btn">Smart Search</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--
+      -- ─── AUTCION ────────────────────────────────────────────────────────────────────
+      -->
+    <section class="auction-wrapper">
+        <div class="auction-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header">
+                            <h2>auction <span>products</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="auction-content-wrap">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 mx-auto">
+                                    <div class="custom-pill-wrap">
+                                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" id="ongoingNavItem" data-toggle="pill"
+                                                    href="#ongoing">Ongoing</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="upcomingNavItem" data-toggle="pill"
+                                                    href="#upcoming">Upcoming</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content custom-tab-wrap" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="ongoing">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="auction-content">
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="auction-product-img">
+                                                            <img src="assets/images/auction1.png" class="img-fluid"
+                                                                alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="auction-info">
+                                                            <div class="product-name">
+                                                                <h3>Product 01</h3>
+                                                            </div>
+                                                            <div class="product-details">
+                                                                <p>
+                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                    elit, sed do eiusmod tempor...
+                                                                </p>
+                                                            </div>
+                                                            <div class="bid-info">
+                                                                <p>Bid starts from: BDT 20,000</p>
+                                                            </div>
+                                                            <div class="bid-status">
+                                                                <p class="bid-quantity">12 bids</p>
+                                                                <p class="bid-open"><i class="fa fa-clock"></i>
+                                                                    <span>Open</span> 56 minutes ago</p>
+                                                                <p class="bid-close"><i class="fa fa-clock"></i>
+                                                                    <span>Close</span> 23 hour 4 minutes</p>
+                                                            </div>
+                                                            <div class="bid-btn">
+                                                                <a href="#0" class="custom-btn">Bid Now</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="auction-content mt-4">
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="auction-product-img">
+                                                            <img src="assets/images/auction1.png" class="img-fluid"
+                                                                alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="auction-info">
+                                                            <div class="product-name">
+                                                                <h3>Product 03</h3>
+                                                            </div>
+                                                            <div class="product-details">
+                                                                <p>
+                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                    elit, sed do eiusmod tempor...
+                                                                </p>
+                                                            </div>
+                                                            <div class="bid-info">
+                                                                <p>Bid starts from: BDT 20,000</p>
+                                                            </div>
+                                                            <div class="bid-status">
+                                                                <p class="bid-quantity">12 bids</p>
+                                                                <p class="bid-open"><i class="fa fa-clock"></i>
+                                                                    <span>Open</span> 56 minutes ago</p>
+                                                                <p class="bid-close"><i class="fa fa-clock"></i>
+                                                                    <span>Close</span> 23 hour 4 minutes</p>
+                                                            </div>
+                                                            <div class="bid-btn">
+                                                                <a href="#0" class="custom-btn">Bid Now</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="auction-content">
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="auction-product-img">
+                                                            <img src="assets/images/auction1.png" class="img-fluid"
+                                                                alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="auction-info">
+                                                            <div class="product-name">
+                                                                <h3>Product 02</h3>
+                                                            </div>
+                                                            <div class="product-details">
+                                                                <p>
+                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                    elit, sed do eiusmod tempor...
+                                                                </p>
+                                                            </div>
+                                                            <div class="bid-info">
+                                                                <p>Bid starts from: BDT 19,000</p>
+                                                            </div>
+                                                            <div class="bid-status">
+                                                                <p class="bid-quantity">16 bids</p>
+                                                                <p class="bid-open"><i class="fa fa-clock"></i>
+                                                                    <span>Open</span> 56 minutes ago</p>
+                                                                <p class="bid-close"><i class="fa fa-clock"></i>
+                                                                    <span>Close</span> 23 hour 4 minutes</p>
+                                                            </div>
+                                                            <div class="bid-btn">
+                                                                <a href="#0" class="custom-btn">Bid Now</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="auction-content mt-4">
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="auction-product-img">
+                                                            <img src="assets/images/auction1.png" class="img-fluid"
+                                                                alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="auction-info">
+                                                            <div class="product-name">
+                                                                <h3>Product 04</h3>
+                                                            </div>
+                                                            <div class="product-details">
+                                                                <p>
+                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                    elit, sed do eiusmod tempor...
+                                                                </p>
+                                                            </div>
+                                                            <div class="bid-info">
+                                                                <p>Bid starts from: BDT 14,000</p>
+                                                            </div>
+                                                            <div class="bid-status">
+                                                                <p class="bid-quantity">22 bids</p>
+                                                                <p class="bid-open"><i class="fa fa-clock"></i>
+                                                                    <span>Open</span> 56 minutes ago</p>
+                                                                <p class="bid-close"><i class="fa fa-clock"></i>
+                                                                    <span>Close</span> 23 hour 4 minutes</p>
+                                                            </div>
+                                                            <div class="bid-btn">
+                                                                <a href="#0" class="custom-btn">Bid Now</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="upcoming">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="auction-content">
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="auction-product-img">
+                                                            <img src="assets/images/auction1.png" class="img-fluid"
+                                                                alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="auction-info">
+                                                            <div class="product-name">
+                                                                <h3>Product 01</h3>
+                                                            </div>
+                                                            <div class="product-details">
+                                                                <p>
+                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                    elit, sed do eiusmod tempor...
+                                                                </p>
+                                                            </div>
+                                                            <div class="bid-info">
+                                                                <p>Bid starts from: BDT 20,000</p>
+                                                            </div>
+                                                            <div class="bid-status">
+                                                                <p class="bid-quantity">12 bids</p>
+                                                                <p class="bid-open"><i class="fa fa-clock"></i>
+                                                                    <span>Open</span> 56 minutes ago</p>
+                                                                <p class="bid-close"><i class="fa fa-clock"></i>
+                                                                    <span>Close</span> 23 hour 4 minutes</p>
+                                                            </div>
+                                                            <div class="bid-btn">
+                                                                <a href="#0" class="custom-btn">Bid Now</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="auction-content mt-4">
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="auction-product-img">
+                                                            <img src="assets/images/auction1.png" class="img-fluid"
+                                                                alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="auction-info">
+                                                            <div class="product-name">
+                                                                <h3>Product 03</h3>
+                                                            </div>
+                                                            <div class="product-details">
+                                                                <p>
+                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                    elit, sed do eiusmod tempor...
+                                                                </p>
+                                                            </div>
+                                                            <div class="bid-info">
+                                                                <p>Bid starts from: BDT 20,000</p>
+                                                            </div>
+                                                            <div class="bid-status">
+                                                                <p class="bid-quantity">12 bids</p>
+                                                                <p class="bid-open"><i class="fa fa-clock"></i>
+                                                                    <span>Open</span> 56 minutes ago</p>
+                                                                <p class="bid-close"><i class="fa fa-clock"></i>
+                                                                    <span>Close</span> 23 hour 4 minutes</p>
+                                                            </div>
+                                                            <div class="bid-btn">
+                                                                <a href="#0" class="custom-btn">Bid Now</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="auction-content">
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="auction-product-img">
+                                                            <img src="assets/images/auction1.png" class="img-fluid"
+                                                                alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="auction-info">
+                                                            <div class="product-name">
+                                                                <h3>Product 02</h3>
+                                                            </div>
+                                                            <div class="product-details">
+                                                                <p>
+                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                    elit, sed do eiusmod tempor...
+                                                                </p>
+                                                            </div>
+                                                            <div class="bid-info">
+                                                                <p>Bid starts from: BDT 20,000</p>
+                                                            </div>
+                                                            <div class="bid-status">
+                                                                <p class="bid-quantity">12 bids</p>
+                                                                <p class="bid-open"><i class="fa fa-clock"></i>
+                                                                    <span>Open</span> 56 minutes ago</p>
+                                                                <p class="bid-close"><i class="fa fa-clock"></i>
+                                                                    <span>Close</span> 23 hour 4 minutes</p>
+                                                            </div>
+                                                            <div class="bid-btn">
+                                                                <a href="#0" class="custom-btn">Bid Now</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="auction-content mt-4">
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="auction-product-img">
+                                                            <img src="assets/images/auction1.png" class="img-fluid"
+                                                                alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="auction-info">
+                                                            <div class="product-name">
+                                                                <h3>Product 04</h3>
+                                                            </div>
+                                                            <div class="product-details">
+                                                                <p>
+                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                    elit, sed do eiusmod tempor...
+                                                                </p>
+                                                            </div>
+                                                            <div class="bid-info">
+                                                                <p>Bid starts from: BDT 20,000</p>
+                                                            </div>
+                                                            <div class="bid-status">
+                                                                <p class="bid-quantity">12 bids</p>
+                                                                <p class="bid-open"><i class="fa fa-clock"></i>
+                                                                    <span>Open</span> 56 minutes ago</p>
+                                                                <p class="bid-close"><i class="fa fa-clock"></i>
+                                                                    <span>Close</span> 23 hour 4 minutes</p>
+                                                            </div>
+                                                            <div class="bid-btn">
+                                                                <a href="#0" class="custom-btn">Bid Now</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <!-- See all auction product button -->
+                            <div class="see-more-btn">
+                                <a href="#0" class="custom-btn">see more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+      -- ─── MERCHANT ───────────────────────────────────────────────────────────────────
+      -->
+    <section class="merchant-wrapper">
+        <div class="merchant-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header">
+                            <h2>our top <span>merchants</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="merchant-content-wrap">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6">
+                            <div class="merchant-content">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="merchant-img">
+                                            <img src="assets/images/merchant-img.svg" class="img-fluid" alt="">
+                                            <!-- Merchant's shop image-->
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="merchant-info">
+                                            <div class="merchant-shop-name">
+                                                <!-- Merchant's shop name -->
+                                                <h3>Marchant 01</h3>
+                                            </div>
+                                            <div class="merchant-shop-txt">
+                                                <!-- Some texts of merchant's shop -->
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                    elit, sed do eiusmod tempor...</p>
+                                            </div>
+                                            <div class="merchant-shop-location">
+                                                <!-- Merchant's shop location -->
+                                                <p>Sylhet, Bangladesh</p>
+                                            </div>
+                                            <div class="merchant-available-product">
+                                                <!-- Merchant available products -->
+                                                <p>55 Products Available</p>
+                                            </div>
+                                            <div class="merchant-shop-review">
+                                                <div class="review-wrap">
+                                                    <!-- Merchant Reviewing part -->
+                                                    <a href="#0">
+                                                        <i class="fa fa-star"></i>
+                                                    </a>
+                                                    <a href="#0">
+                                                        <i class="fa fa-star"></i>
+                                                    </a>
+                                                    <a href="#0">
+                                                        <i class="fa fa-star"></i>
+                                                    </a>
+                                                    <a href="#0">
+                                                        <i class="fa fa-star"></i>
+                                                    </a>
+                                                    <a href="#0">
+                                                        <i class="fa fa-star"></i>
+                                                    </a>
+
+                                                </div>
+                                            </div>
+                                            <div class="merchant-shop-explore">
+                                                <!-- Merchant's shop explore button -->
+                                                <a href="#0" class="custom-btn">Explore</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <div class="merchant-content">
+                                <div class="merchant-content">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="merchant-img">
+                                                <img src="assets/images/merchant-img.svg" class="img-fluid" alt="">
+                                                <!-- Merchant's shop image-->
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="merchant-info">
+                                                <div class="merchant-shop-name">
+                                                    <!-- Merchant's shop name -->
+                                                    <h3>Marchant 01</h3>
+                                                </div>
+                                                <div class="merchant-shop-txt">
+                                                    <!-- Some texts of merchant's shop -->
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                        elit, sed do eiusmod tempor...</p>
+                                                </div>
+                                                <div class="merchant-shop-location">
+                                                    <!-- Merchant's shop location -->
+                                                    <p>Sylhet, Bangladesh</p>
+                                                </div>
+                                                <div class="merchant-available-product">
+                                                    <!-- Merchant available products -->
+                                                    <p>55 Products Available</p>
+                                                </div>
+                                                <div class="merchant-shop-review">
+                                                    <div class="review-wrap">
+                                                        <!-- Merchant Reviewing part -->
+                                                        <a href="#0">
+                                                            <i class="fa fa-star"></i>
+                                                        </a>
+                                                        <a href="#0">
+                                                            <i class="fa fa-star"></i>
+                                                        </a>
+                                                        <a href="#0">
+                                                            <i class="fa fa-star"></i>
+                                                        </a>
+                                                        <a href="#0">
+                                                            <i class="fa fa-star"></i>
+                                                        </a>
+                                                        <a href="#0">
+                                                            <i class="fa fa-star"></i>
+                                                        </a>
+
+                                                    </div>
+                                                </div>
+                                                <div class="merchant-shop-explore">
+                                                    <!-- Merchant's shop explore button -->
+                                                    <a href="#0" class="custom-btn">Explore</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <div class="merchant-content">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="merchant-img">
+                                            <img src="assets/images/merchant-img.svg" class="img-fluid" alt="">
+                                            <!-- Merchant's shop image-->
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="merchant-info">
+                                            <div class="merchant-shop-name">
+                                                <!-- Merchant's shop name -->
+                                                <h3>Marchant 01</h3>
+                                            </div>
+                                            <div class="merchant-shop-txt">
+                                                <!-- Some texts of merchant's shop -->
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                    elit, sed do eiusmod tempor...</p>
+                                            </div>
+                                            <div class="merchant-shop-location">
+                                                <!-- Merchant's shop location -->
+                                                <p>Sylhet, Bangladesh</p>
+                                            </div>
+                                            <div class="merchant-available-product">
+                                                <!-- Merchant available products -->
+                                                <p>55 Products Available</p>
+                                            </div>
+                                            <div class="merchant-shop-review">
+                                                <div class="review-wrap">
+                                                    <!-- Merchant Reviewing part -->
+                                                    <a href="#0">
+                                                        <i class="fa fa-star"></i>
+                                                    </a>
+                                                    <a href="#0">
+                                                        <i class="fa fa-star"></i>
+                                                    </a>
+                                                    <a href="#0">
+                                                        <i class="fa fa-star"></i>
+                                                    </a>
+                                                    <a href="#0">
+                                                        <i class="fa fa-star"></i>
+                                                    </a>
+                                                    <a href="#0">
+                                                        <i class="fa fa-star"></i>
+                                                    </a>
+
+                                                </div>
+                                            </div>
+                                            <div class="merchant-shop-explore">
+                                                <!-- Merchant's shop explore button -->
+                                                <a href="#0" class="custom-btn">Explore</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <div class="merchant-content">
+                                <div class="merchant-content">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="merchant-img">
+                                                <img src="assets/images/merchant-img.svg" class="img-fluid" alt="">
+                                                <!-- Merchant's shop image-->
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="merchant-info">
+                                                <div class="merchant-shop-name">
+                                                    <!-- Merchant's shop name -->
+                                                    <h3>Marchant 01</h3>
+                                                </div>
+                                                <div class="merchant-shop-txt">
+                                                    <!-- Some texts of merchant's shop -->
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                        elit, sed do eiusmod tempor...</p>
+                                                </div>
+                                                <div class="merchant-shop-location">
+                                                    <!-- Merchant's shop location -->
+                                                    <p>Sylhet, Bangladesh</p>
+                                                </div>
+                                                <div class="merchant-available-product">
+                                                    <!-- Merchant available products -->
+                                                    <p>55 Products Available</p>
+                                                </div>
+                                                <div class="merchant-shop-review">
+                                                    <div class="review-wrap">
+                                                        <!-- Merchant Reviewing part -->
+                                                        <a href="#0">
+                                                            <i class="fa fa-star"></i>
+                                                        </a>
+                                                        <a href="#0">
+                                                            <i class="fa fa-star"></i>
+                                                        </a>
+                                                        <a href="#0">
+                                                            <i class="fa fa-star"></i>
+                                                        </a>
+                                                        <a href="#0">
+                                                            <i class="fa fa-star"></i>
+                                                        </a>
+                                                        <a href="#0">
+                                                            <i class="fa fa-star"></i>
+                                                        </a>
+
+                                                    </div>
+                                                </div>
+                                                <div class="merchant-shop-explore">
+                                                    <!-- Merchant's shop explore button -->
+                                                    <a href="#0" class="custom-btn">Explore</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-12">
+                            <!-- See All Merchant  button -->
+                            <div class="see-all-btn">
+                                <a href="" class="custom-btn">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+      -- ─── FEATURED ───────────────────────────────────────────────────────────────────
+      -->
+    <section class="featured-wrapper">
+        <div class="featured-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header">
+                            <h2>top featured <span>products</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-content-wrap">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 mx-auto">
+                                    <div class="custom-pill-wrap">
+                                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" id="allNavItem" data-toggle="pill"
+                                                    href="#all">All</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="newNavItem" data-toggle="pill"
+                                                    href="#new">New</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="usedNavItem" data-toggle="pill"
+                                                    href="#used">Used</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content custom-tab-wrap" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="all">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <button class="featured-content">
+                                                <div class="featured-img">
+                                                    <img src="assets/images/featured1.png" class="img-fluid" alt="">                                                    
+                                                </div>
+                                                <div class="featured-product-info">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-7">
+                                                                    <div class="feat-product-name">
+                                                                        <h5>Product 01</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4 ml-auto">
+                                                                    <div class="feat-product-status">
+                                                                        <p>New</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-8">
+                                                                    <div class="feat-product-price">
+                                                                        <h5>BDT 36,000.00</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="feat-product-place">
+                                                                        <p>Sylhet</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <button class="featured-content">
+                                                <div class="featured-img">
+                                                    <img src="assets/images/featured3.png" class="img-fluid" alt="">                                                   
+                                                </div>
+                                                <div class="featured-product-info">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-7">
+                                                                    <div class="feat-product-name">
+                                                                        <h5>Product 02</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4 ml-auto">
+                                                                    <div class="feat-product-status">
+                                                                        <p>New</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-8">
+                                                                    <div class="feat-product-price">
+                                                                        <h5>BDT 20,000.00</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="feat-product-place">
+                                                                        <p>Sylhet</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <button class="featured-content">
+                                                <div class="featured-img">
+                                                    <img src="assets/images/featured5.png" class="img-fluid" alt="">                                                    
+                                                </div>
+                                                <div class="featured-product-info">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-7">
+                                                                    <div class="feat-product-name">
+                                                                        <h5>Product 03</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4 ml-auto">
+                                                                    <div class="feat-product-status">
+                                                                        <p>New</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-8">
+                                                                    <div class="feat-product-price">
+                                                                        <h5>BDT 28,000.00</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="feat-product-place">
+                                                                        <p>Sylhet</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <button class="featured-content">
+                                                <div class="featured-img">
+                                                    <img src="assets/images/featured2.png" class="img-fluid" alt="">
+                                                    
+                                                </div>
+                                                <div class="featured-product-info">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-7">
+                                                                    <div class="feat-product-name">
+                                                                        <h5>Product 04</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4 ml-auto">
+                                                                    <div class="feat-product-status">
+                                                                        <p>New</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-8">
+                                                                    <div class="feat-product-price">
+                                                                        <h5>BDT 12,000.00</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="feat-product-place">
+                                                                        <p>Sylhet</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="feat-gap">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured9.png" class="img-fluid" alt="">
+                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 05</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>Used</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 26,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured7.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 06</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>Used</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 18,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured6.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 07</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>New</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 28,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured7.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 08</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>New</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 12,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="feat-gap">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured6.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 09</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>New</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 36,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured9.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 10</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>New</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 20,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured4.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 11</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>New</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 28,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured8.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 12</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>New</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 12,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="new">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <button class="featured-content">
+                                                <div class="featured-img">
+                                                    <img src="assets/images/featured1.png" class="img-fluid" alt="">                                                    
+                                                </div>
+                                                <div class="featured-product-info">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-7">
+                                                                    <div class="feat-product-name">
+                                                                        <h5>Product 01</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4 ml-auto">
+                                                                    <div class="feat-product-status">
+                                                                        <p>New</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-8">
+                                                                    <div class="feat-product-price">
+                                                                        <h5>BDT 36,000.00</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="feat-product-place">
+                                                                        <p>Sylhet</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <button class="featured-content">
+                                                <div class="featured-img">
+                                                    <img src="assets/images/featured3.png" class="img-fluid" alt="">                                                    
+                                                </div>
+                                                <div class="featured-product-info">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-7">
+                                                                    <div class="feat-product-name">
+                                                                        <h5>Product 02</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4 ml-auto">
+                                                                    <div class="feat-product-status">
+                                                                        <p>New</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-8">
+                                                                    <div class="feat-product-price">
+                                                                        <h5>BDT 20,000.00</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="feat-product-place">
+                                                                        <p>Sylhet</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <button class="featured-content">
+                                                <div class="featured-img">
+                                                    <img src="assets/images/featured5.png" class="img-fluid" alt="">                                                    
+                                                </div>
+                                                <div class="featured-product-info">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-7">
+                                                                    <div class="feat-product-name">
+                                                                        <h5>Product 03</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4 ml-auto">
+                                                                    <div class="feat-product-status">
+                                                                        <p>New</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-8">
+                                                                    <div class="feat-product-price">
+                                                                        <h5>BDT 28,000.00</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="feat-product-place">
+                                                                        <p>Sylhet</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <button class="featured-content">
+                                                <div class="featured-img">
+                                                    <img src="assets/images/featured2.png" class="img-fluid" alt="">                                                    
+                                                </div>
+                                                <div class="featured-product-info">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-7">
+                                                                    <div class="feat-product-name">
+                                                                        <h5>Product 04</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4 ml-auto">
+                                                                    <div class="feat-product-status">
+                                                                        <p>New</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-8">
+                                                                    <div class="feat-product-price">
+                                                                        <h5>BDT 12,000.00</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="feat-product-place">
+                                                                        <p>Sylhet</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="feat-gap">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured9.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 05</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>Used</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 26,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured7.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 06</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>Used</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 18,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured6.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 07</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>New</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 28,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured7.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 08</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>New</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 12,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="feat-gap">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured6.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 09</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>New</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 36,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured9.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 10</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>New</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 20,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured4.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 11</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>New</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 28,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured8.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 12</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>New</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 12,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="used">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <button class="featured-content">
+                                                <div class="featured-img">
+                                                    <img src="assets/images/featured1.png" class="img-fluid" alt="">                                                    
+                                                </div>
+                                                <div class="featured-product-info">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-7">
+                                                                    <div class="feat-product-name">
+                                                                        <h5>Product 01</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4 ml-auto">
+                                                                    <div class="feat-product-status">
+                                                                        <p>New</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-8">
+                                                                    <div class="feat-product-price">
+                                                                        <h5>BDT 36,000.00</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="feat-product-place">
+                                                                        <p>Sylhet</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <button class="featured-content">
+                                                <div class="featured-img">
+                                                    <img src="assets/images/featured3.png" class="img-fluid" alt="">                                                    
+                                                </div>
+                                                <div class="featured-product-info">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-7">
+                                                                    <div class="feat-product-name">
+                                                                        <h5>Product 02</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4 ml-auto">
+                                                                    <div class="feat-product-status">
+                                                                        <p>New</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-8">
+                                                                    <div class="feat-product-price">
+                                                                        <h5>BDT 20,000.00</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="feat-product-place">
+                                                                        <p>Sylhet</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <button class="featured-content">
+                                                <div class="featured-img">
+                                                    <img src="assets/images/featured5.png" class="img-fluid" alt="">                                                    
+                                                </div>
+                                                <div class="featured-product-info">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-7">
+                                                                    <div class="feat-product-name">
+                                                                        <h5>Product 03</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4 ml-auto">
+                                                                    <div class="feat-product-status">
+                                                                        <p>New</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-8">
+                                                                    <div class="feat-product-price">
+                                                                        <h5>BDT 28,000.00</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="feat-product-place">
+                                                                        <p>Sylhet</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <button class="featured-content">
+                                                <div class="featured-img">
+                                                    <img src="assets/images/featured2.png" class="img-fluid" alt="">                                                    
+                                                </div>
+                                                <div class="featured-product-info">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-7">
+                                                                    <div class="feat-product-name">
+                                                                        <h5>Product 04</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4 ml-auto">
+                                                                    <div class="feat-product-status">
+                                                                        <p>New</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-8">
+                                                                    <div class="feat-product-price">
+                                                                        <h5>BDT 12,000.00</h5>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="feat-product-place">
+                                                                        <p>Sylhet</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="feat-gap">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured9.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 05</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>Used</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 26,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured7.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 06</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>Used</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 18,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured6.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 07</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>New</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 28,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured7.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 08</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>New</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 12,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="feat-gap">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured6.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 09</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>New</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 36,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured9.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 10</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>New</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 20,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured4.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 11</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>New</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 28,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <button class="featured-content">
+                                                    <div class="featured-img">
+                                                        <img src="assets/images/featured8.png" class="img-fluid" alt="">                                                        
+                                                    </div>
+                                                    <div class="featured-product-info">
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-7">
+                                                                        <div class="feat-product-name">
+                                                                            <h5>Product 12</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 ml-auto">
+                                                                        <div class="feat-product-status">
+                                                                            <p>New</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-md-8">
+                                                                        <div class="feat-product-price">
+                                                                            <h5>BDT 12,000.00</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="feat-product-place">
+                                                                            <p>Sylhet</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <!-- See all auction product button -->
+                            <div class="see-more-btn">
+                                <a href="#0" class="custom-btn">see more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+      -- ─── SEARCH BY BRAND ────────────────────────────────────────────────────────────
+      -->
+    <section class="brand-wrapper">
+        <div class="brand-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header">
+                            <h2>search by <span>brand</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="brand-inner-wrap">
+                    <div class="owl-carousel brand-slider owl-theme">
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="brand-inner">
+                                        <a href="">
+                                            <img src="assets/images/apple.svg" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="brand-inner">
+                                        <a href="">
+                                            <img src="assets/images/samsung.svg" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="brand-inner">
+                                        <a href="">
+                                            <img src="assets/images/xiaomi.svg" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="brand-inner">
+                                        <a href="">
+                                            <img src="assets/images/huawei.svg" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="brand-inner">
+                                        <a href="">
+                                            <img src="assets/images/samsung.svg" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="brand-inner">
+                                        <a href="">
+                                            <img src="assets/images/oneplus.svg" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="brand-inner">
+                                        <a href="">
+                                            <img src="assets/images/walton.svg" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="brand-inner">
+                                        <a href="">
+                                            <img src="assets/images/nokia.svg" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="brand-inner">
+                                        <a href="">
+                                            <img src="assets/images/realme.svg" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="brand-inner">
+                                        <a href="">
+                                            <img src="assets/images/oppo.svg" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="brand-inner">
+                                        <a href="">
+                                            <img src="assets/images/vivo.svg" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+      -- ─── FOOTER ─────────────────────────────────────────────────────────────────────
+      -->
+    <footer class="footer-wrapper">
+        <div class="footer-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer-item-wrap">
+                            <div class="footer-logo">
+                                <a href="./">
+                                    <img src="assets/images/logo.svg" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="footer-txt">
+                                <p>Lorem ipsum dolor sit amet, cons rices gravida. Risus comm viverra maecenas accumsan
+                                    lacus vel facilisis. olor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                    gravida. Risus commodo viverra.</p>
+                            </div>
+                            <div class="footer-social">
+                                <div class="social">
+                                    <div class="social-ic">
+                                        <a href="">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </div>
+                                    <div class="social-ic">
+                                        <a href="">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <div class="social-ic">
+                                        <a href="">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </div>
+                                    <div class="social-ic">
+                                        <a href="">
+                                            <i class="fab fa-google-plus-g"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="footer-item-wrap">
+                            <div class="footer-li">
+                                <div class="footer-title">
+                                    <h3>Learn More</h3>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="#0">Quick Sell</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Membership</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Banner AD</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Post Your AD</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="footer-item-wrap">
+                            <div class="footer-li">
+                                <div class="footer-title">
+                                    <h3>Menu</h3>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="#0">Used Phones</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">New Phones</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Sell your Phone</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="footer-item-wrap">
+                            <div class="footer-li">
+                                <div class="footer-title">
+                                    <h3>Help & Support</h3>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="#0">FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="footer-item-wrap">
+                            <div class="footer-li">
+                                <div class="footer-title">
+                                    <h3>About Us</h3>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="#0">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Careers</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Terms & Conditions</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#0">Sitemap</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="small-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="sm-footer-item">
+                            <div class="copyright">
+                                <p>Copyright © 2020<span>|</span>Codemonk<span>|</span>All Rights Reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ml-auto">
+                        <div class="sm-footer-item">
+                            <div class="terms">
+                                <p><a href="#0">Terms of Use</a><span>|</span><a href="#0">Privacy Policy</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- jQuery -->
+    <script src="assets/plugins/js/jquery-3.4.0.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/plugins/js/bootstrap.bundle.min.js"></script>
+    <!-- Fontawesome -->
+    <script src="assets/plugins/js/fontawesome.min.js"></script>
+    <!-- Owl JS -->
+    <script src="assets/plugins/js/owl.carousel.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+/*------------- 
+[Table of contents]
+
+[ DEFULT INDEX NUMBER ]
+
+1.  GENERAL CSS
+2.  NAVBAR
+4.  HOME
+5.  ABOUT
+6.  MENTORS
+7.  BEST TOPIC
+8.  TIME SCHEDULE
+9.  RESERVATION
+10. FOOTER
+
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[ Color codes ]
+    
+    [ Text and Background Color ]
+        
+        //Main Homepage    
+
+        White:                          #ffffff;
+        Black:                          #000000;
+        Primary Color:                  #f6f0e4;
+        Primary Color 2:                #f6bd3b;
+        Primary Color 3:                #e85c37;
+        Font Color 1:                   #f8633b;
+        Font Color 2:                   #361e1d; 
+        Nav Color:                      #262626;
+
+        //Homepage 2
+        Primary Color 21:               linear-gradient(131deg, #00b4e8 36%, #10267b 126%);
+        Primary Color 22:               #00b5e9;
+        Primary Color 23:               #030041;
+        Primary Color 24:               #ddf9ff;
+
+        //Homepage 3
+        Primary Color 31:               linear-gradient(120deg, #496fff 7%, #ea82ff 122%);
+        Primary Color 32:               #ff5f6f;;
+        Primary Color 33:               #3e2d9e;
+        Primary Color 34:               #150d41;
+        Primary Color 35:               #f6edff;
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Typography]
+
+    [ Four different font typography have been used ]
+        Typography 1: BebasNeue font;
+        Typography 2: SFProDisplay font;
+        Typography 3: Avalon font;
+        Typography 4: Brushot font;
+
+    [ Other Typography style are same ]
+    Body :
+        font-style:     normal;
+        font-size:      15px;
+
+    h2:
+        font-size: 60px;
+        line-height: normal;
+
+    h3:
+        font-size: 40px;
+        line-height: normal;
+
+    h4:
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.88;
+
+
+    p:  
+        font-size: 18px;
+
+
+-------------------------------------------------------------------*/
+/*# sourceMappingURL=css-tree.css.map */

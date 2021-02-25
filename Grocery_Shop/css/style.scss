@@ -1,0 +1,108 @@
+$primary: rgb(77, 37, 2);
+$white: #aaa;
+
+body {
+    background: #ccc;
+    
+    .navbar{
+        
+        font-family: "Raleway", sans-serif;
+        font-size: 1.5rem;
+        background: $primary;
+        min-height: 70px;
+        .navbar-brand{
+            font-size: 1.5rem;
+            font-weight: 300;
+            color : $white;
+        }
+    }
+    i{
+        color: $white;
+    }
+    #overflow {
+        background: url("../imgs/background.jpg") center/ cover no-repeat;
+        min-height: 600px;
+        opacity: 1;
+        
+        
+        h1{
+            font-weight: bold;
+            color:$primary;
+            border-bottom:$primary solid 1px;
+            border-top:$primary solid 1px;
+            
+        }
+        button{
+            background: $primary;
+            border: none;
+            border-radius: 2rem;
+        }
+        button:hover{
+            background: rgb(107, 52, 3);
+            font-weight: 500;
+        }
+    }
+    
+}
+#onlineproduct{
+    
+    .border{
+        background: $primary;
+        
+    }
+    .border:hover{
+        background: rgb(107, 52, 3);
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
+#discount{
+    img{
+        width: "800"; 
+        height: "800";
+    }
+
+}
+
+#discount{
+    min-height: 150px;
+    .card{
+        background: #ccc;
+    }
+    a{
+        background: $primary;
+        border: none;
+        border-radius: 2rem;
+    }
+    a:hover{
+        background: rgb(107, 52, 3);
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
+#about{
+    i{
+        color: $primary;
+    }
+    .card{
+        background: #ccc;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+footer{
+    
+    i{
+        color: $primary;
+    }
+    .card{
+        background: #ccc;
+        border: none;
+    }
+    .card-title{
+        border-bottom: rgb(194, 192, 192) solid 1px;
+        padding-bottom: 15px;
+    }
+}

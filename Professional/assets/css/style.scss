@@ -1,0 +1,250 @@
+// CUSTOM CSS
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #fbf3fb;
+    max-width: 100%;
+
+
+    .container {
+        max-width: 1140px;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    // ~ Header ~
+    #header-wrapper {
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+        padding: 10px 0;
+        background-color: #fff5ff;
+
+        .custom-navbar {
+            color: #333;
+            font-weight: bold;
+            margin: 0 0 0 50px;
+            padding: 10px 0;
+            background: #fff5ff;
+
+            li {
+                margin: 0 10px 0 0;
+                
+            }
+        }
+
+        .custom-contact {
+            margin: 0px;
+            padding: 0px;
+
+
+            .custom-button {
+                background: linear-gradient(to right, #9933cc, #6600cc);
+                color: #ffffff;
+                padding: 7px 15px;
+                margin: 0 0 0 50px;
+                text-align: center; 
+
+                span {
+                    margin: 0 5px 0 0;
+                }
+            }
+            .custom-date {
+                padding: 0 10px;
+                margin: 3px 0 0 65px;
+                font-weight: bold;
+                font-size: 14px;
+                
+            }
+        }
+    }
+
+    // ~ Consultation ~
+    #consultation-wrapper {
+        background: url(../imgs/gradient-bg--1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color: #ffffff;
+        
+        .consultation-wrap {
+            // background: url(../imgs/gradient-bg-art.png);
+            // background-repeat: no-repeat;
+            // background-position: 100% 60%;
+            padding: 20px 0px 15px;
+            position: relative;
+            overflow: hidden;
+            
+            .gradient-art-img {
+                position: absolute;
+                top: -25px;  
+                left: 915px;
+                max-width: auto;
+                height: auto;
+            }
+            .consultation-header {
+                font-size: 32px;
+                font-weight: bold;
+                margin: 25px 0;
+            }
+            .consultation-body {
+                font-size: 16px;
+                font-weight: 600;
+                padding: 0 100px 0 0;
+                margin: 25px 0;
+            }
+            
+        }
+    }
+
+    // ~ Profession ~
+    #profession-wrapper {
+        position: relative;
+        padding: 0 0 150px 0;
+        margin: 60px 0 0 0;
+        text-align: center;
+
+        .custom-carousel-button {
+             margin: 0 0 60px 0;
+        }
+        .custom-card {
+
+            h2 {
+                margin: 0 0 45px 0;
+            }
+            .custom-card-p1 {
+                margin: 45px 5px 50px;
+                padding: 0;
+
+                .cc {
+                    width: 220px;
+                    height: 150px;
+
+                    .ci {
+                        width: 150px;
+                        height: 150px;
+                    }
+                }
+
+
+                .custom-card-1-p1 {
+                    background-color: #cbc6ec;
+                    // padding: 20px 20px 0;
+                    margin: 0px;
+                    border: none;
+
+                    .card-img-1-p1 {
+                        margin: 10px 0 0;
+                        padding: 20px;
+                    }
+                }
+                .custom-card-2-p1 {
+                    background-color: #cbc6ec;
+                    padding: 20px 20px 0;
+                    border: none;
+
+                    .card-img-2-p1 {
+                        // margin: 10px 0 0;
+                        padding: 20px;
+                    }
+                }
+                .custom-card-3-p1 {
+                    background-color: #cbc6ec;
+                    padding: 20px 20px 0;
+                    border: none;
+
+                    .card-img-3-p1 {
+                        margin: 10px 0 0;
+                        padding: 20px;
+                    }
+                }
+                .custom-card-4-p1 {
+                    background-color: #cbc6ec;
+                    padding: 20px 20px 0;
+                    border: none;
+
+                    .card-img-4-p1 {
+                        margin: 10px 0 0;
+                        padding: 20px;
+                    }
+                }
+                .custom-card-5-p1 {
+                    background-color: #cbc6ec;
+                    padding: 20px 20px 0;
+                    border: none;
+
+                    .card-img-5-p1 {
+                        margin: 10px 0 0;
+                        padding: 20px;
+                    }
+                }
+                
+
+            }
+        }
+        .profession-img {
+            position: absolute;
+            
+            .profession-img-bg {
+                position: relative;
+ 
+                top: -175px;
+                left: 65px;
+                height: auto;
+                width: 1264px;
+            }
+        }
+    }
+    // ~ Footer ~
+    #footer-wrapper {
+        background: url(../imgs/footer-bg.png);
+        // background-attachment: fixed;
+        // background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 0 0 0;
+        padding: 300px 0 10px 0;
+        overflow: hidden;
+        
+        .footer-wrap-body {
+            margin: 60px 0 85px 0;
+
+            h2 {
+                font-size: 32px;
+                font-weight: bold;
+                margin: 0 0 60px;
+            }
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                margin: 0 0 30px;
+                padding: 0 10px 0 0;
+            }
+            .navigation {
+                color: #333333;
+
+                ul {
+                    font-size: 22px;
+                    font-weight: 600;
+
+                    li {
+                        list-style: none;
+                        margin: 0 0 10px 0;
+                    }
+                }
+            }
+            .love-car {
+                margin: 25px 0 0 70px;
+            }
+        }
+        .footer-copyright {
+            hr {
+                background-color: #fbf3fb;
+            }
+            .copyright-body {
+                font-weight: 300;
+                margin: 0;
+                padding: 5px 0;
+            }
+        }
+
+    }
+}

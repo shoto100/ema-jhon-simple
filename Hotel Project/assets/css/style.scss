@@ -1,0 +1,48 @@
+// Font
+
+$ouick: 'Quicksand', sans-serif;
+
+
+
+
+// CUSTOM CSS
+
+body {
+    font-family: $ouick;
+    background-color: #fbf3fb;
+    max-width: 100%;
+
+    .container {
+        max-width: 1140px;
+        height: 100%;
+        margin: 0 auto;
+    }
+}
+// === FOOTER ===
+
+#footer-wrapper {
+    background-image: url(../images/footer-bg.png);
+    background-size: cover;
+    // background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    .footer-header {
+        color: #fff;
+        font-size: 68px;
+        font-weight: 700;
+        font-family: $ouick;
+        margin: 55px 0 110px 0;
+    }
+    .footer-list {
+        padding: 0 0 200px 0;
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            padding: 0 0 0 15px;
+
+        }
+        
+    }
+}
